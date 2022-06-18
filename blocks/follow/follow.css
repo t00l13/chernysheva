@@ -1,0 +1,46 @@
+.follow{
+    background: rgba(0, 0, 0, 0.03);
+    min-height: 275px;
+    display: flex;
+    align-items: center;
+}
+.follow__wrapper{
+
+}
+.follow__title{
+    font-family: 'Trajan Pro 3';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 56px;
+    line-height: 73px;
+    margin: 0;
+    margin-bottom: 10px;
+    margin-right: 71px;
+}
+.follow__subtitle{
+    font-family: 'Iowan Old Style';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    margin: 0;
+    color: #828282;
+}
+.follow__text{
+    font-family: 'Trajan Pro 3';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 41px;
+    margin: 0;
+    margin-top: 20px;
+}
+.follow__text:first-child{
+    margin-top: 0;
+}
+.follow__container{
+    width: calc(100% - 720px);
+    margin: 0 auto;
+    display: flex;
+
+}

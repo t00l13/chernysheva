@@ -1,0 +1,34 @@
+@import url('../vendor/normalize.css');
+@import url('../vendor/fonts/fonts.css');
+
+@import url('../blocks/header/header.css');
+
+@import url('../blocks/lead/lead.css');
+
+@import url('../blocks/about-me/about-me.css');
+
+@import url('../blocks/news/news.css');
+
+@import url('../blocks/events/events.css');
+
+@import url('../blocks/timetable/timetable.css');
+
+@import url('../blocks/video-cover/video-cover.css');
+
+@import url('../blocks/experience/experience.css');
+
+@import url('../blocks/education/education.css');
+
+@import url('../blocks/main-directions/main-directions.css');
+
+@import url('../blocks/reviews/reviews.css');
+
+@import url('../blocks/sertificat/sertificat.css');
+
+@import url('../blocks/media/media.css');
+
+@import url('../blocks/reception/reception.css');
+
+@import url('../blocks/follow/follow.css');
+
+@import url('../blocks/footer/footer.css');

@@ -1,0 +1,77 @@
+.education{
+    width: calc(100% - 320px);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 120px;
+}
+
+.education__title{
+    font-family: 'Trajan Pro 3';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 56px;
+    line-height: 130%;
+    margin: 0;
+    margin-bottom: 50px;
+}
+
+.education__list{
+    display: flex;
+    margin: 0;
+}
+.education__item{
+    list-style: none;
+    margin: 0;
+    margin-right: 40px;
+    min-width: 370px;
+    border-radius: 5px;
+}
+.education__item__title{
+    font-family: 'Trajan Pro 3';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 41px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+.education__item__subtitle{
+    font-family: 'Iowan Old Style';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    color: #828282;
+    margin: 0;
+}
+.education__link{
+    font-family: 'Trajan Pro 3';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    padding: 21px 39px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    text-align: center;
+    color: #000;
+    text-decoration: none;
+    margin: 0 auto;
+    margin-top: 47px;
+    background-color: transparent;
+    transition: 1s linear;
+}
+
+.hide{
+    display: none;
+}
+
+.education__list_hide{
+    display: flex;
+}
+
+.education__link:hover{
+    color: #fff;
+    background-color: #000;
+}

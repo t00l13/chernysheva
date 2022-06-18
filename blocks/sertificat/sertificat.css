@@ -1,0 +1,62 @@
+.sertificat{
+    width: calc(100% - 320px);
+    margin: 0 auto;
+    margin-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+}
+.sertificat__title{
+    font-family: 'Trajan Pro 3';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 56px;
+    line-height: 130%;
+    margin: 0;
+    margin-bottom: 50px;
+}
+.sertificat__list{
+    display: flex;
+}
+.sertificat__list-item{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+.sertificat__list-item__img{
+    max-height: 170px;
+    max-width: 250px;
+}
+.sertificat__list-item__subtitle{
+    font-family: 'Iowan Old Style';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    margin-top: 30px;
+    color: #828282;
+}
+.sertificat__link{
+    font-family: 'Trajan Pro 3';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    padding: 21px 39px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    text-align: center;
+    color: #000;
+    text-decoration: none;
+    margin: 0 auto;
+    margin-top: 47px;
+    background-color: transparent;
+    transition: 1s linear;
+}
+.sertificat__list_hide{
+    display: flex;
+}
+
+.sertificat__link:hover{
+    color: #fff;
+    background-color: #000;
+}

@@ -1,0 +1,70 @@
+.reviews{  
+    width: calc(100% - 320px);
+    margin: 0 auto;
+    margin-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+}
+.reviews__title{
+    font-family: 'Trajan Pro 3';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 56px;
+    line-height: 73px;
+}
+
+.reviews__grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+    grid-gap: 20px;
+}
+
+.reviews__grid-item{
+    border-radius: 5px;
+}
+
+.reviews__grid-item__title{
+    font-family: 'Trajan Pro 3';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 41px;
+    margin: 32px 0 10px 0;
+}
+.reviews__grid-item__subtitle{
+    font-family: 'Iowan Old Style';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    color: #828282;
+    margin: 0;
+}
+.reviews__grid_hide{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+    grid-gap: 20px;
+}
+
+.reviews__link{
+    font-family: 'Trajan Pro 3';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    padding: 21px 39px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    text-align: center;
+    color: #000;
+    text-decoration: none;
+    margin: 0 auto;
+    margin-top: 47px;
+    background-color: transparent;
+    transition: 1s linear;
+}
+
+.reviews__link{
+    color: #fff;
+    background-color: #000;
+}

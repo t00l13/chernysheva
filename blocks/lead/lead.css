@@ -1,0 +1,99 @@
+.lead{
+    width: calc(100% - 320px);
+    margin: 0 auto;
+    display: flex;
+}
+
+.lead__textarea{
+    margin: 0;
+    margin-top: 157px;
+    max-width: 792px;
+    margin-right: 28px;
+}
+
+.lead__title{
+    font-family: 'Trajan Pro 3';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 56px;
+    line-height: 130%;
+    margin: 0;
+}
+
+.lead__subtitle{
+    text-align: left;
+    font-family: 'Iowan Old Style';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    color: #828282;
+    max-width: 646px;
+    margin: 20px 0 0 0 ;
+}
+
+.lead__link-wrapper{
+    margin-top: 50px;
+    display: flex;
+}
+
+.lead__link-connect{
+    font-family: 'Trajan Pro 3';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    padding: 22px;
+    background: #000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 30px;
+    border: 1px solid #000;
+    transition: 1s linear;
+}
+
+.lead__link-video{
+    font-family: 'Trajan Pro 3';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    color: #000;
+    text-decoration: none;
+    padding: 22px 39px ;
+    border: 1px solid #000;
+    border-radius: 5px;
+    transition: 1s linear;
+}
+
+.lead__link-icon{
+    margin-right: 15px;
+}
+
+.lead__images{
+    height: 757px;
+    width: 780px;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.lead__images-marina{  
+    position: absolute;
+    align-self: flex-start;
+}
+
+.lead__images-flower{
+    z-index: 2;
+    position: absolute;
+    align-self: flex-end;
+    left: 0;
+}
+
+.lead__link-connect:hover{
+    color: #000;
+    text-decoration: none;
+    background: #fff;
+    border: 1px solid #000;
+}

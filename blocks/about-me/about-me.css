@@ -1,0 +1,47 @@
+.about-me{
+    width: calc(100% - 320px);
+    margin: 0 auto;
+    display: flex;
+}
+.about-me__img{
+
+}
+.about-me__textarea{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: 40px;
+}
+.about-me__title{
+    font-family: 'Trajan Pro 3';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 56px;
+    line-height: 73px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+.about-me__subtitle{
+
+    font-family: 'Iowan Old Style';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    color: #828282;
+    margin: 0;
+    margin-bottom: 60px;
+    max-width: 580px;
+}
+.about-me__profession{
+    font-family: 'Trajan Pro 3';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 41px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+.about-me__profession:last-child{
+    margin-bottom: 40px;
+}

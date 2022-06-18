@@ -1,0 +1,54 @@
+.experience{
+    width: calc(100% - 320px);
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 120px;
+    margin-top: 22px;
+    justify-content: space-between;
+    align-items: flex-endmsin;
+}
+.experience__wrapper{
+    margin-right: 76px;
+}
+.experience__title{
+    font-family: 'Trajan Pro 3';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 56px;
+    line-height: 73px;
+}
+.experience__grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    grid-gap: 50px;
+}
+.experience__grid-item{
+
+}
+.experience__grid-item__title{
+    font-family: 'Trajan Pro 3';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 41px;
+}
+.experience__grid-item__subtitle{
+    font-family: 'Iowan Old Style';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    color: #828282;
+}
+.experience__photos{
+ display: flex;
+}
+.experience__img1{
+    margin-right: 42px;
+
+}
+.experience__img2{
+    align-self: flex-end;
+    height: 610px;
+    width: 368px;
+}
