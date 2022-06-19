@@ -76,3 +76,263 @@
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 20px;
 }
+
+@media (max-width:1441px) {
+
+    .events{
+        margin:0 auto;
+        margin-top: 90px;
+        background: rgba(0, 0, 0, 0.03);
+    }
+    
+    .events__container{
+        width: calc(100% - 220px);
+        margin: 0 auto;
+        padding-top: 90px;
+        display:flex;
+        flex-direction: column;
+    }
+    
+    .events__title{
+        font-family: 'Trajan Pro 3';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 40px;
+        line-height: 130%;
+    }
+    
+    .events__grid{
+        margin: 0;
+        margin-top: 50px;
+        margin-bottom: 30px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-gap: 10px;
+    }
+    
+    .events__grid-item__img{
+        width: 300px;
+        height: 350px;
+    }
+    
+    .events__grid-item__subtitle{
+        margin: 20px 10px 0 0 ;
+        color: #828282;
+        font-family: 'Iowan Old Style';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 24px;
+        max-width: 250px;
+    }
+    
+    .events__btn{
+        font-family: 'Trajan Pro 3';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 100%;
+        color: #000;
+        text-decoration: none;
+        margin: 0 auto;
+        margin-bottom: 90px;
+        padding: 22px 39px;
+        border: 1px solid #000;
+        border-radius: 5px;
+        align-self: center;
+        background-color: transparent;
+        transition: 1s linear;
+    }
+    .events__btn:hover{
+        color: #fff;
+        background-color: #000;
+    }
+    .events__grid_hide{
+        margin: 0;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-gap: 15px;
+    }
+}
+
+@media (max-width:1367px) {
+
+    .events{
+        margin:0 auto;
+        margin-top: 90px;
+        background: rgba(0, 0, 0, 0.03);
+    }
+    
+    .events__container{
+        width: calc(100% - 200px);
+        margin: 0 auto;
+        padding-top: 50px;
+        display:flex;
+        flex-direction: column;
+    }
+    
+    .events__title{
+        font-family: 'Trajan Pro 3';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 38px;
+        line-height: 120%;
+    }
+    
+    .events__grid{
+        margin: 0;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-gap: 20px;
+    }
+    
+    .events__grid-item__img{
+        width: 300px;
+        height: 350px;
+    }
+    
+    .events__grid-item__subtitle{
+        margin: 20px 10px 0 0 ;
+        color: #828282;
+        font-family: 'Iowan Old Style';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 24px;
+        max-width: 250px;
+    }
+    
+    .events__btn{
+        font-family: 'Trajan Pro 3';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 100%;
+        color: #000;
+        text-decoration: none;
+        margin: 0 auto;
+        margin-bottom: 90px;
+        padding: 22px 39px;
+        border: 1px solid #000;
+        border-radius: 5px;
+        align-self: center;
+        background-color: transparent;
+        transition: 1s linear;
+    }
+    .events__btn:hover{
+        color: #fff;
+        background-color: #000;
+    }
+    .events__grid_hide{
+        margin: 0;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-gap: 15px;
+    }
+}
+@media only screen and (min-width: 1181px) and (max-width: 1281px){
+    .events__container{
+        width: calc(100% - 180px);
+        margin: 0 auto;
+        padding-top: 50px;
+        display:flex;
+        flex-direction: column;
+    }
+    .events__grid-item__img{
+        width: 250px;
+        height: 270px;
+    }
+    .events__grid{
+        margin: 0;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+        grid-gap: 10px;
+    }
+}
+
+@media only screen and (min-width: 1023px) and (max-width: 1181px){
+    .events{
+        margin:0 auto;
+        margin-top: 60px;
+        background: rgba(0, 0, 0, 0.03);
+    }
+    
+    .events__container{
+        width: calc(100% - 160px);
+        margin: 0 auto;
+        padding-top: 50px;
+        display:flex;
+        flex-direction: column;
+    }
+    
+    .events__title{
+        font-family: 'Trajan Pro 3';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 32px;
+        line-height: 100%;
+    }
+    
+    .events__grid{
+        margin: 0;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        grid-gap: 10px;
+    }
+    
+    .events__grid-item__img{
+        width: 125px;
+        height: 155px;
+    }
+    
+    .events__grid-item__subtitle{
+        margin: 20px 10px 0 0 ;
+        color: #828282;
+        font-family: 'Iowan Old Style';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 18px;
+        max-width: 250px;
+    }
+    
+    .events__btn{
+        font-family: 'Trajan Pro 3';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 100%;
+        color: #000;
+        text-decoration: none;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        padding: 11px 20px;
+        border: 1px solid #000;
+        border-radius: 5px;
+        align-self: center;
+        background-color: transparent;
+        transition: 1s linear;
+    }
+    .events__btn:hover{
+        color: #fff;
+        background-color: #000;
+    }
+    .events__grid_hide{
+        margin: 0;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        grid-gap: 15px;
+    }
+}
