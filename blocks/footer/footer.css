@@ -1,11 +1,10 @@
 .footer{
     background-color: #000;
-    display: flex;
     min-height: 675px;
-    align-items: center;
+    display: flex;
 }
 .footer__container{
-    width: calc(100% - 320px);
+    min-width: 1600px;
     margin: 0 auto;
 }
 .footer__wrapper{
@@ -22,11 +21,13 @@
     margin: 0;
     margin-right: 40px;
     min-width: 370px;
+    list-style: none ;
 }
 .footer__list-item{
     margin-bottom: 20px;
 }
 .footer__link{
+    position: relative;
     color: #fff;
     text-decoration: none;
     font-family: 'Trajan Pro 3';
@@ -34,6 +35,28 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 27px;
+}
+.footer__link:after{
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px; /* Высота линии */
+    background-color: #fff; /* Цвет подчеркивания при исчезании линии*/
+    transition: width 0.5s;
+}
+.footer__link:hover:after{
+    content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 2px; /* Высота линии */
+    background-color: #fff; /* Цвет подчеркивания при появлении линии*/
+    transition: width 0.5s;  /* Время эффекта */
 }
 .footer__info{
 
@@ -55,193 +78,16 @@
     align-self: flex-end;
 }
 
-@media (max-width:1441px){
-    .footer{
-        background-color: #000;
-        display: flex;
-        min-height: 575px;
-        align-items: center;
-    }
+@media (min-width: 1200px) and (max-width: 1900px) {
     .footer__container{
-        width: calc(100% - 220px);
+        min-width: 1170px;
         margin: 0 auto;
     }
-    .footer__wrapper{
-        margin-top: 58px;
-        margin-bottom: 36px;
-        display: flex;
-        justify-content: space-between ;
-    }
-    .footer__wrapper_text{
-        margin-top: 40px;
-        display: flex;
-    }
     .footer__list{
-        margin: 0;
-        margin-right: 40px;
-        min-width: 300px;
-    }
-    .footer__list-item{
-        margin-bottom: 20px;
-    }
-    .footer__link{
-        color: #fff;
-        text-decoration: none;
-        font-family: 'Trajan Pro 3';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 24px;
-    }
-    .footer__info{
-    
-    }
-    .footer__text{
-        font-family: 'Trajan Pro 3';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 27px;
-        color: #fff;
-        max-width: 470px;
-    }
-    .footer__logo{
-        max-width: 258px;
-        max-height:50px ;
-    }
-    .footer__infographic{
-        width: 550px;
-        height: 550px;
-        right: 0;
-        position: absolute;
-        align-self: flex-end;
-    }
-}
-
-
-@media (max-width:1367px){
-    .footer{
-        background-color: #000;
-        display: flex;
-        min-height: 525px;
-        align-items: center;
-    }
-    .footer__container{
-        width: calc(100% - 200px);
-        margin: 0 auto;
-    }
-    .footer__wrapper{
-        margin-top: 42px;
-        margin-bottom: 36px;
-        display: flex;
-        justify-content: space-between ;
-    }
-    .footer__wrapper_text{
-        margin-top: 30px;
-        display: flex;
-    }
-    .footer__list{
-        margin: 0;
         margin-right: 30px;
-        min-width: 250px;
+        min-width: 270px;
     }
     .footer__list-item{
-        margin-bottom: 20px;
+        margin-bottom: 30px;
     }
-    .footer__link{
-        color: #fff;
-        text-decoration: none;
-        font-family: 'Trajan Pro 3';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 24px;
-    }
-    .footer__info{
-    
-    }
-    .footer__text{
-        font-family: 'Trajan Pro 3';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 27px;
-        color: #fff;
-        max-width: 470px;
-    }
-    .footer__logo{
-        max-width: 258px;
-        max-height:50px ;
-    }
-    .footer__infographic{
-        width: 550px;
-        height: 550px;
-        right: 0;
-        position: absolute;
-        align-self: flex-end;
-    }
-}
-
-@media only screen and (min-width: 1023px) and (max-width: 1181px){
-    .footer{
-        background-color: #000;
-        display: flex;
-        min-height: 425px;
-        align-items: center;
-    }
-    .footer__container{
-        width: calc(100% - 160px);
-        margin: 0 auto;
-    }
-    .footer__wrapper{
-        margin-top: 42px;
-        margin-bottom: 32px;
-        display: flex;
-        justify-content: space-between ;
-    }
-    .footer__wrapper_text{
-        margin-top: 20px;
-        display: flex;
-    }
-    .footer__list{
-        margin: 0;
-        margin-right: 20px;
-        min-width: 200px;
-    }
-    .footer__list-item{
-        margin-bottom: 10px;
-    }
-    .footer__link{
-        color: #fff;
-        text-decoration: none;
-        font-family: 'Trajan Pro 3';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 20px;
-    }
-    .footer__info{
-    
-    }
-    .footer__text{
-        font-family: 'Trajan Pro 3';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 18px;
-        color: #fff;
-        max-width: 470px;
-    }
-    .footer__logo{
-            max-width: 180px;
-            max-height:40px ;
-
-    }
-    .footer__infographic{
-        width: 450px;
-        height: 450px;
-        right: 0;
-        position: absolute;
-        align-self: flex-end;
-    }
-}
+  }

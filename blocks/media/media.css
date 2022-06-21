@@ -1,6 +1,4 @@
 .media{
-    width: calc(100% - 320px);
-    margin: 0 auto;
     margin-bottom: 120px;
 }
 .media__title{
@@ -32,121 +30,27 @@
     border-radius: 5px;
 }
 
-@media (max-width:1441px){
+@media (min-width: 1200px) and (max-width: 1900px) {
     .media{
-        width: calc(100% - 220px);
-        margin: 0 auto;
-        margin-bottom: 90px;
+        margin-bottom: 100px;
     }
     .media__title{
-        font-family: 'Trajan Pro 3';
-        font-style: normal;
-        font-weight: 300;
-        font-size: 40px;
-        line-height: 52px;
+        font-size: 48px;
+        line-height: 62px;
     }
     .media__img{
         grid-area:main;
         border-radius: 5px;
-        margin-right: 10px;
-        width: 580px;
-        height: 450px;
-    }
-    .media__wrapper{
-        display: flex;
-    
-    }
-    .media__grid{
-        display: grid; 
-        grid-template-columns: 1fr 1fr 1fr 1fr; 
-        grid-template-rows: 1fr 1fr; 
-        gap: 20px 20px; 
-        grid-template-areas: 
-          "main main . ."
-          "main main . ."; 
+        margin-right: 0;
+        width: 566px;
+        height: 604px;
     }
     .media__grid-img{
         border-radius: 5px;
         width: 270px;
-        height: 210px;
-    }
-}
-
-@media (max-width:1367px){
-    .media{
-        width: calc(100% - 200px);
-        margin: 0 auto;
-        margin-bottom: 80px;
-    }
-    .media__title{
-        font-family: 'Trajan Pro 3';
-        font-style: normal;
-        font-weight: 300;
-        font-size: 38px;
-        line-height: 48px;
-    }
-    .media__img{
-        grid-area:main;
-        border-radius: 5px;
-        margin-right: 10px;
-        width: 550px;
-        height: 430px;
-    }
-    .media__wrapper{
-        display: flex;
-    
+        height: 287px;
     }
     .media__grid{
-        display: grid; 
-        grid-template-columns: 1fr 1fr 1fr 1fr; 
-        grid-template-rows: 1fr 1fr; 
-        gap: 20px 20px; 
-        grid-template-areas: 
-          "main main . ."
-          "main main . ."; 
+        gap:30px; 
     }
-    .media__grid-img{
-        border-radius: 5px;
-        width: 250px;
-        height: 200px;
-    }
-}
-@media only screen and (min-width: 1023px) and (max-width: 1181px){
-    .media{
-        width: calc(100% - 160px);
-        margin: 0 auto;
-        margin-bottom: 50px;
-    }
-    .media__title{
-        font-family: 'Trajan Pro 3';
-        font-style: normal;
-        font-weight: 300;
-        font-size: 32px;
-        line-height: 32px;
-    }
-    .media__img{
-        grid-area:main;
-        border-radius: 5px;
-        margin-right: 10px;
-        width: 448px;
-        height: 328px;
-    }
-    .media__wrapper{
-        display: flex;
-        justify-content: center;
-    }
-    .media__grid{
-        display: grid; 
-        grid-template-columns: 1fr 1fr 1fr 1fr; 
-        grid-template-rows: 1fr 1fr; 
-        gap: 10px 10px; 
-        grid-template-areas: 
-          "main main . ."
-          "main main . ."; 
-    }
-    .media__grid-img{
-        border-radius: 5px;
-        width: 180px;
-        height: 155px;
-    }
-}
+  }

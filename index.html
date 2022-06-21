@@ -25,7 +25,6 @@
                         <li><a href="#timetable" class="header__link">Занятия</a></li>
                         <li><a href="#experience" class="header__link">Биография</a></li>
                         <li><a href="#main-directions" class="header__link">Направления</a></li>
-                        <li><a href="#sertificat" class="header__link">Сертификаты</a></li>
                         <li><a href="#media" class="header__link">Медиаматериалы</a></li>
                         <li><a href="#reception" class="header__link">О Клинике</a></li>
                         <li><a href="#" class="header__link-connect">Cвязаться</a></li>
@@ -35,78 +34,117 @@
         </div>
     </header>
 
-    <main class="main">
-        <section class="lead" id="lead">
-            <div class="lead__textarea">
-                <h1 class="lead__title">Профессиональный подход к косметологии</h1>
-                <p class="lead__subtitle">Фундаментальное образование, активная практическая и преподавательская
-                    деятельность, обучение врачей косметологов и использование только безопасных методов
-                    и зарегистрированных препаратов в работе</p>
-                <div class="lead__link-wrapper">
-                    <a href="#" class="lead__link-connect">Связаться</a>
-                    <a href="#video-cover" class="lead__link-video"><img class="lead__link-icon" src="./images/icon-play.svg"
-                            alt=""> Смотреть видео</a>
-                </div>
-            </div>
-            <div class="lead__images">
-                <img class="lead__images-marina" src="./images/lead__marina.png" alt="">
-                <img class="lead__images-flower" src="./images/lead__flower.png" alt="">
-            </div>
-        </section>
+    <main class="main" id="main">
+        <div class="container">
 
-        <section class="about-me" id="about-me">
-            <img class="about-me__img" src="./images/about-me__marina.png" alt="">
-
-            <div class="about-me__textarea">
-                <h2 class="about-me__title">Марина Павловна Чернышёва</h2>
-                <p class="about-me__subtitle">Топ-эксперт по препарату Диспорт в России; тренер по инъекционным
-                    методикам в компаниях «Валлекс М», «Ипсен» и «Галдерма»</p>
-                <h3 class="about-me__profession">Кандидат медицинских наук</h3>
-                <h3 class="about-me__profession">Врач-дерматовенеролог</h3>
-                <h3 class="about-me__profession">Косметолог</h3>
-            </div>
-
-        </section>
-
-        <section class="news" id="news">
-            <h2 class="news__title">Новости</h2>
-            <div class="news__list" id="news_items">
-                <div class="news__item">
-                    <img class="news__item-img" src="./images/news1.png" alt="">
-                    <div id="news_item-1" class="news__item-textarea active">
-                        <h3 class="news__item-title">С 10 по 20 марта приглашаем моделей для пересадки волос FUE
-                            методом!</h3>
-                        <p class="news__item-subtitle">Restylane Vital и Vital Light — это безопасное и естественное
-                            средство для омоложения кожи. Оно обеспечивает восстановление водного баланса и…</p>
-                        <p class="news__item-date">5 апреля, 2022 г.</p>
-                        <img class="news__prev" src="./images/prev.svg" alt="">
-                        <img class="news__next" src="./images/next.svg" alt="">
+            <section class="lead" id="lead">
+                <div class="lead__container-item">
+                    <div class="lead__textarea">
+                        <h1 class="lead__title">Профессиональный подход к косметологии</h1>
+                        <p class="lead__subtitle">Фундаментальное образование, активная практическая и преподавательская
+                            деятельность, обучение врачей косметологов и использование только безопасных методов
+                            и зарегистрированных препаратов в работе</p>
+                        <div class="lead__link-wrapper">
+                            <a href="#" class="lead__link-connect">Связаться</a>
+                            <a href="#video-cover" class="lead__link-video"><img class="lead__link-icon"
+                                    src="./images/icon-play.svg" alt=""> Смотреть видео</a>
+                        </div>
+                        <div class="lead__btn-wrapper">
+                            <img onclick="previousSlide()" class="lead__btn" src="./images/slide_left.svg" alt="">
+                            <img onclick="nextSlide()"class="lead__btn" src="./images/slide_right.svg" alt="">
+                        </div>
                     </div>
-                </div>
-                <div class="news__item" id="news_item-2">
-                    <img class="news__item-img" src="./images/news2.png" alt="">
-                    <div id="news_item-2" class="news__item-textarea">
-                        <h3 class="news__item-title">С 10 по 20 марта приглашаем моделей для пересадки волос FUE
-                            методом!</h3>
-                        <p class="news__item-subtitle">Restylane Vital и Vital Light — это безопасное и естественное
-                            средство для омоложения кожи. Оно обеспечивает восстановление водного баланса и…</p>
-                        <p class="news__item-date">5 апреля, 2022 г.</p>
-                    </div>
-                </div>
-                <div class="news__item" id="news_item-3">
-                    <img class="news__item-img" src="./images/news3.png" alt="">
-                    <div id="news_item-3" class="news__item-textarea">
-                        <h3 class="news__item-title">С 10 по 20 марта приглашаем моделей для пересадки волос FUE
-                            методом!</h3>
-                        <p class="news__item-subtitle">Restylane Vital и Vital Light — это безопасное и естественное
-                            средство для омоложения кожи. Оно обеспечивает восстановление водного баланса и…</p>
-                        <p class="news__item-date">5 апреля, 2022 г.</p>
+                    <div class="lead__images">
+                        <div class="lead__images-marina"></div>
+                        <div class="lead__images-flower"></div>
                     </div>
                 </div>
 
-            </div>
-        </section>
 
+                <div class="lead__container-item">
+                    <div class="lead__textarea">
+                        <h1 class="lead__title">Профессиональный подход</h1>
+                        <p class="lead__subtitle">Фундаментальное образование, активная практическая и преподавательская
+                            деятельность, обучение врачей косметологов и использование только безопасных методов
+                            и зарегистрированных препаратов в работе</p>
+                        <div class="lead__link-wrapper">
+                            <a href="#" class="lead__link-connect">Связаться</a>
+                            <a href="#video-cover" class="lead__link-video"><img class="lead__link-icon"
+                                    src="./images/icon-play.svg" alt=""> Смотреть видео</a>
+                        </div>
+                        <div class="lead__btn-wrapper">
+                            <img onclick="previousSlide()" class="lead__btn" src="./images/slide_left.svg" alt="">
+                            <img onclick="nextSlide()"class="lead__btn" src="./images/slide_right.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="lead__images">
+                        <div class="lead__images-marina"></div>
+                        <div class="lead__images-flower"></div>
+                    </div>
+                </div>
+
+
+                <div class="lead__container-item">
+                    <div class="lead__textarea">
+                        <h1 class="lead__title">к косметологии</h1>
+                        <p class="lead__subtitle">Фундаментальное образование, активная практическая и преподавательская
+                            деятельность, обучение врачей косметологов и использование только безопасных методов
+                            и зарегистрированных препаратов в работе</p>
+                        <div class="lead__link-wrapper">
+                            <a href="#" class="lead__link-connect">Связаться</a>
+                            <a href="#video-cover" class="lead__link-video"><img class="lead__link-icon"
+                                    src="./images/icon-play.svg" alt=""> Смотреть видео</a>
+                        </div>
+                        <div class="lead__btn-wrapper">
+                            <img onclick="previousSlide()" class="lead__btn" src="./images/slide_left.svg" alt="">
+                            <img onclick="nextSlide()"class="lead__btn" src="./images/slide_right.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="lead__images">
+                        <div class="lead__images-marina"></div>
+                        <div class="lead__images-flower"></div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="about-me" id="about-me">
+                <div class="about-me__img"></div>
+                <div class="about-me__textarea">
+                    <h2 class="about-me__title">Марина Павловна Чернышёва</h2>
+                    <p class="about-me__subtitle">Топ-эксперт по препарату Диспорт в России; тренер по инъекционным
+                        методикам в компаниях «Валлекс М», «Ипсен» и «Галдерма»</p>
+                    <h3 class="about-me__profession">Кандидат медицинских наук</h3>
+                    <h3 class="about-me__profession">Врач-дерматовенеролог</h3>
+                    <h3 class="about-me__profession">Косметолог</h3>
+                </div>
+
+            </section>
+
+            <section class="news" id="news">
+                <h2 class="news__title">Новости</h2>
+                <div class="news__list" id="news_items">
+                    <div class="news__item">
+                        <img class="news__item-img" src="./images/news1.png" alt="">
+                        <div id="news_item-1" class="news__item-textarea">
+                            <h3 class="news__item-title">С 10 по 20 марта приглашаем моделей для пересадки волос FUE
+                                методом!</h3>
+                            <p class="news__item-subtitle">Restylane Vital и Vital Light — это безопасное и естественное
+                                средство для омоложения кожи. Оно обеспечивает восстановление водного баланса и…</p>
+                            <p class="news__item-date">5 апреля, 2022 г.</p>
+                            <img class="news__prev" src="./images/prev.svg" alt="">
+                            <img class="news__next" src="./images/next.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="news__item" id="news_item-2">
+                        <img class="news__item-img" src="./images/news2.png" alt="">
+                    </div>
+                    <div class="news__item" id="news_item-3">
+                        <img class="news__item-img" src="./images/news3.png" alt="">
+                    </div>
+
+                </div>
+            </section>
+        </div>
         <section class="events" id="events">
             <div class="events__container">
                 <h2 class="events__title">Участие в мероприятиях</h2>
@@ -177,33 +215,33 @@
                 <button class="events__btn">Ещё</button>
             </div>
         </section>
-
-        <section class="timetable" id="timetable">
-            <h2 class="timetable__title">Расписание занятий</h2>
-            <div class="timetable__grid">
-                <div class="timetable__grid-item">
-                    <img class="timetable__grid-item__img" src="./images/timetable1.png" alt="">
-                    <p class="timetable__grid-item__subtitle">Применение препарта Диспорт / 01.05.22</p>
-                    <a class="timetable__grid-item__link" href="#">Записаться</a>
+        <div class="container">
+            <section class="timetable" id="timetable">
+                <h2 class="timetable__title">Расписание занятий</h2>
+                <div class="timetable__grid">
+                    <div class="timetable__grid-item">
+                        <img class="timetable__grid-item__img" src="./images/timetable1.png" alt="">
+                        <p class="timetable__grid-item__subtitle">Применение препарта Диспорт / 01.05.22</p>
+                        <a class="timetable__grid-item__link" href="#">Записаться</a>
+                    </div>
+                    <div class="timetable__grid-item">
+                        <img class="timetable__grid-item__img" src="./images/timetable1.png" alt="">
+                        <p class="timetable__grid-item__subtitle">Применение препарта Диспорт / 01.05.22</p>
+                        <a class="timetable__grid-item__link" href="#">Записаться</a>
+                    </div>
+                    <div class="timetable__grid-item">
+                        <img class="timetable__grid-item__img" src="./images/timetable1.png" alt="">
+                        <p class="timetable__grid-item__subtitle">Применение препарта Диспорт / 01.05.22</p>
+                        <a class="timetable__grid-item__link" href="#">Записаться</a>
+                    </div>
+                    <div class="timetable__grid-item">
+                        <img class="timetable__grid-item__img" src="./images/timetable1.png" alt="">
+                        <p class="timetable__grid-item__subtitle">Применение препарта Диспорт / 01.05.22</p>
+                        <a class="timetable__grid-item__link" href="#">Записаться</a>
+                    </div>
                 </div>
-                <div class="timetable__grid-item">
-                    <img class="timetable__grid-item__img" src="./images/timetable1.png" alt="">
-                    <p class="timetable__grid-item__subtitle">Применение препарта Диспорт / 01.05.22</p>
-                    <a class="timetable__grid-item__link" href="#">Записаться</a>
-                </div>
-                <div class="timetable__grid-item">
-                    <img class="timetable__grid-item__img" src="./images/timetable1.png" alt="">
-                    <p class="timetable__grid-item__subtitle">Применение препарта Диспорт / 01.05.22</p>
-                    <a class="timetable__grid-item__link" href="#">Записаться</a>
-                </div>
-                <div class="timetable__grid-item">
-                    <img class="timetable__grid-item__img" src="./images/timetable1.png" alt="">
-                    <p class="timetable__grid-item__subtitle">Применение препарта Диспорт / 01.05.22</p>
-                    <a class="timetable__grid-item__link" href="#">Записаться</a>
-                </div>
-            </div>
-        </section>
-
+            </section>
+        </div>
         <section class="video-cover" id="video-cover">
             <div class="video-cover__container">
                 <div class="video-cover__player" id="player"></div>
@@ -212,280 +250,283 @@
                 </script>
             </div>
         </section>
-
-        <section class="experience" id="experience">
-            <div class="experience__wrapper">
-                <h2 class="experience__title">Опыт работы</h2>
-                <div class="experience__grid">
-                    <div class="experience__grid-item">
-                        <h3 class="experience__grid-item__title">C 2017 г</h3>
-                        <p class="experience__grid-item__subtitle">Врач-дерматовенеролог клиники эстетической медицины
-                            «ЭверЭстетик»</p>
-                    </div>
-                    <div class="experience__grid-item">
-                        <h3 class="experience__grid-item__title">2002–2017 г</h3>
-                        <p class="experience__grid-item__subtitle">Врач — дерматовенеролог клиники превентивной медицины
-                            «Валлекс Мёд»</p>
-                    </div>
-                    <div class="experience__grid-item">
-                        <h3 class="experience__grid-item__title">1998-2002 г</h3>
-                        <p class="experience__grid-item__subtitle">Косметолог в клинике г. Ростов-на-Дону</p>
-                    </div>
-                    <div class="experience__grid-item">
-                        <h3 class="experience__grid-item__title">C 1998 года</h3>
-                        <p class="experience__grid-item__subtitle">Стаж работы</p>
-                    </div>
-                </div>
-            </div>
-            <div class="experience__photos">
-                <img class="experience__img1" src="./images/experience1.png" alt="">
-                <img class="experience__img2" src="./images/experience2.png" alt="">
-            </div>
-        </section>
-
-        <section class="education" id="education">
-            <h2 class="education__title">Образование</h2>
-            <ul class="education__list">
-                <li class="education__item">
-                    <h4 class="education__item__title">1995 г.</h4>
-                    <p class="education__item__subtitle">Окончила Ростовский Государственный Медицинский Университет
-                        по специальности «Педиатрия»</p>
-                </li>
-                <li class="education__item">
-                    <h4 class="education__item__title">1996 г.</h4>
-                    <p class="education__item__subtitle">Закончила интернатура на кафедре кожных и венерических
-                        болезней, в последующие годы неоднократно повышала квалификацию</p>
-                </li>
-                <li class="education__item">
-                    <h4 class="education__item__title">2005 г.</h4>
-                    <p class="education__item__subtitle">Повышение квалификации «Контурная пластика» в «Национальной
-                        Академии Эстетической и Антиэйджинг Медицины»</p>
-                </li>
-                <li class="education__item">
-                    <h4 class="education__item__title">2007 г.</h4>
-                    <p class="education__item__subtitle">Повышение квалификации по специальности «Эстетическая
-                        неврология» при ГОУ ВПО ММА
-                        им. Сеченова Росздрава</p>
-                </li>
-            </ul>
-            <!-- <a class="education__link" href="#">Ещё</a> -->
-            <ul class="education__list_hide">
-                <li class="education__item">
-                    <h4 class="education__item__title">1995 г.</h4>
-                    <p class="education__item__subtitle">Окончила Ростовский Государственный Медицинский Университет
-                        по специальности «Педиатрия»</p>
-                </li>
-                <li class="education__item">
-                    <h4 class="education__item__title">1996 г.</h4>
-                    <p class="education__item__subtitle">Закончила интернатура на кафедре кожных и венерических
-                        болезней, в последующие годы неоднократно повышала квалификацию</p>
-                </li>
-                <li class="education__item">
-                    <h4 class="education__item__title">2005 г.</h4>
-                    <p class="education__item__subtitle">Повышение квалификации «Контурная пластика» в «Национальной
-                        Академии Эстетической и Антиэйджинг Медицины»</p>
-                </li>
-                <li class="education__item">
-                    <h4 class="education__item__title">2007 г.</h4>
-                    <p class="education__item__subtitle">Повышение квалификации по специальности «Эстетическая
-                        неврология» при ГОУ ВПО ММА
-                        им. Сеченова Росздрава</p>
-                </li>
-            </ul>
-            <button class="education__link">Ещё</button>
-        </section>
-
-        <section class="main-directions" id="main-directions">
-            <h2 class="main-directions__title">Основные направления</h2>
-            <div class="main-directions__grid">
-                <div class="main-directions__grid-item">
-                    <img class="main-directions__grid-item__img" src="./images/main-directions1.png" alt="">
-                    <h4 class="main-directions__grid-item__title">Инъекционная косметология</h4>
-                    <p class="main-directions__grid-item__subtitle">Биоревитализация, контурная пластика, коррекция
-                        морщин</p>
-                </div>
-                <div class="main-directions__grid-item">
-                    <img class="main-directions__grid-item__img" src="./images/main-directions2.png" alt="">
-                    <h4 class="main-directions__grid-item__title">Аппаратная косметология</h4>
-                    <p class="main-directions__grid-item__subtitle">Лазерное и фотоомоложение, ультразвуковой лифтинг,
-                        радиоволновой лифтинг</p>
-                </div>
-                <div class="main-directions__grid-item">
-                    <img class="main-directions__grid-item__img" src="./images/main-directions3.png" alt="">
-                    <h4 class="main-directions__grid-item__title">Лечение и профилактика старения кожи</h4>
-                    <p class="main-directions__grid-item__subtitle"></p>
-                </div>
-                <div class="main-directions__grid-item">
-                    <img class="main-directions__grid-item__img" src="./images/main-directions4.png" alt="">
-                    <h4 class="main-directions__grid-item__title">Профессиональное обучение косметологии</h4>
-                    <p class="main-directions__grid-item__subtitle">Семинары, тренинги, теория и практическая
-                        деятельность</p>
-                </div>
-            </div>
-        </section>
-
-        <section class="reviews" id="reviews">
-            <h2 class="reviews__title">Видео-отзывы</h2>
-            <div class="reviews__grid">
-                <div class="reviews__grid-item">
-                    <!-- <img class="reviews__grid-item__img" src="./images/review1.png" alt=""> -->
-                    <video controls width="370px" height="300px" poster="./images/review1.png"
-                        src="./images/video__cover.mp4"></video>
-                    <h4 class="reviews__grid-item__title">Подтяжка лица</h4>
-                    <p class="reviews__grid-item__subtitle">Валерия</p>
-                </div>
-                <div class="reviews__grid-item">
-                    <video controls width="370px" height="300px" poster="./images/review2.png"
-                        src="./images/video__cover.mp4"></video>
-                    <h4 class="reviews__grid-item__title">Лечение пигментации методом BBL</h4>
-                    <p class="reviews__grid-item__subtitle">Максим</p>
-                </div>
-                <div class="reviews__grid-item">
-                    <video controls width="370px" height="300px" poster="./images/review3.png"
-                        src="./images/video__cover.mp4"></video>
-                    <h4 class="reviews__grid-item__title">Подтяжка лица</h4>
-                    <p class="reviews__grid-item__subtitle">Татьяна</p>
-                </div>
-                <div class="reviews__grid-item">
-                    <video controls width="370px" height="300px" poster="./images/review4.png"
-                        src="./images/video__cover.mp4"></video>
-                    <h4 class="reviews__grid-item__title">коррекция морщин препаратом Диспорт</h4>
-                    <p class="reviews__grid-item__subtitle">Ксения</p>
-                </div>
-            </div>
-            <div class="reviews__grid_hide">
-                <div class="reviews__grid-item">
-                    <!-- <img class="reviews__grid-item__img" src="./images/review1.png" alt=""> -->
-                    <video controls width="370px" height="300px" poster="./images/review1.png"
-                        src="./images/video__cover.mp4"></video>
-                    <h4 class="reviews__grid-item__title">Подтяжка лица</h4>
-                    <p class="reviews__grid-item__subtitle">Валерия</p>
-                </div>
-                <div class="reviews__grid-item">
-                    <video controls width="370px" height="300px" poster="./images/review2.png"
-                        src="./images/video__cover.mp4"></video>
-                    <h4 class="reviews__grid-item__title">Лечение пигментации методом BBL</h4>
-                    <p class="reviews__grid-item__subtitle">Максим</p>
-                </div>
-                <div class="reviews__grid-item">
-                    <video controls width="370px" height="300px" poster="./images/review3.png"
-                        src="./images/video__cover.mp4"></video>
-                    <h4 class="reviews__grid-item__title">Подтяжка лица</h4>
-                    <p class="reviews__grid-item__subtitle">Татьяна</p>
-                </div>
-                <div class="reviews__grid-item">
-                    <video controls width="370px" height="300px" poster="./images/review4.png"
-                        src="./images/video__cover.mp4"></video>
-                    <h4 class="reviews__grid-item__title">коррекция морщин препаратом Диспорт</h4>
-                    <p class="reviews__grid-item__subtitle">Ксения</p>
-                </div>
-            </div>
-            <button class="reviews__link">Ещё</button>
-        </section>
-
-        <section class="sertificat" id="sertificat">
-            <h2 class="sertificat__title">Сертификаты</h2>
-            <div class="sertificat__list">
-                <div class="sertificat__list-item">
-                    <img class="sertificat__list-item__img" src="./images/sert1.png" alt="">
-                    <p class="sertificat__list-item__subtitle">Dyspot</p>
-                </div>
-                <div class="sertificat__list-item">
-                    <img class="sertificat__list-item__img" src="./images/sert2.png" alt="">
-                    <p class="sertificat__list-item__subtitle">Dyspot</p>
-                </div>
-                <div class="sertificat__list-item">
-                    <img class="sertificat__list-item__img" src="./images/sert3.png" alt="">
-                    <p class="sertificat__list-item__subtitle">Dyspot</p>
-                </div>
-                <div class="sertificat__list-item">
-                    <img class="sertificat__list-item__img" src="./images/sert4.png" alt="">
-                    <p class="sertificat__list-item__subtitle">Dyspot</p>
-                </div>
-                <div class="sertificat__list-item">
-                    <img class="sertificat__list-item__img" src="./images/sert5.png" alt="">
-                    <p class="sertificat__list-item__subtitle">Dyspot</p>
-                </div>
-                <div class="sertificat__list-item">
-                    <img class="sertificat__list-item__img" src="./images/sert6.png" alt="">
-                    <p class="sertificat__list-item__subtitle">Dyspot</p>
-                </div>
-            </div>
-            <div class="sertificat__list_hide">
-                <div class="sertificat__list-item">
-                    <img class="sertificat__list-item__img" src="./images/sert5.png" alt="">
-                    <p class="sertificat__list-item__subtitle">Dyspot</p>
-                </div>
-                <div class="sertificat__list-item">
-                    <img class="sertificat__list-item__img" src="./images/sert2.png" alt="">
-                    <p class="sertificat__list-item__subtitle">Dyspot</p>
-                </div>
-                <div class="sertificat__list-item">
-                    <img class="sertificat__list-item__img" src="./images/sert1.png" alt="">
-                    <p class="sertificat__list-item__subtitle">Dyspot</p>
-                </div>
-                <div class="sertificat__list-item">
-                    <img class="sertificat__list-item__img" src="./images/sert3.png" alt="">
-                    <p class="sertificat__list-item__subtitle">Dyspot</p>
-                </div>
-                <div class="sertificat__list-item">
-                    <img class="sertificat__list-item__img" src="./images/sert5.png" alt="">
-                    <p class="sertificat__list-item__subtitle">Dyspot</p>
-                </div>
-                <div class="sertificat__list-item">
-                    <img class="sertificat__list-item__img" src="./images/sert1.png" alt="">
-                    <p class="sertificat__list-item__subtitle">Dyspot</p>
-                </div>
-            </div>
-            <button class="sertificat__link">Ещё</button>
-        </section>
-
-        <section class="media" id="media">
-            <h2 class="media__title">Медиаматериалы</h2>
-            <div class="media__wrapper">
-                <div class="media__grid">
-                    <img class="media__img" src="./images/media_1.png" alt="">
-                    <img class="media__grid-img" src="./images/media_2.png" alt="">
-                    <img class="media__grid-img" src="./images/media_3.png" alt="">
-                    <img class="media__grid-img" src="./images/media_4.png" alt="">
-                    <img class="media__grid-img" src="./images/media_5.png" alt="">
-                </div>
-            </div>
-        </section>
-
-        <section class="reception" id="reception">
-            <div class="reception__container">
-                <h2 class="reception__title">Место приёма</h2>
-                <div class="reception__textarea">
-                    <p class="reception__subtitle">
-                        EverEsthetic (ЭверЭстетик) — клиника эстетической медицины и косметологии с индивидуальным
-                        подходом к красоте и здоровью каждого пациента.
-                        <br>
-                        <span class="reception__span"></span>
-                        <br>
-                        Наша главная задача — раскрыть естественную, натуральную красоту каждого пациента и научить
-                        его заботиться о ней; в этом заключается наша философия.
-
-                    </p>
-
-                    <p class="reception__adress"><img class="reception__metro" src="./images/metro_icon.svg"
-                            alt="">Профсоюзная (800 м)</p>
-
-                    <p class="reception__adress">г. Москва, Нахимовский проспект, д. 56</p>
-                    <div class="reception__wrapper">
-                        <a class="reception__link-sait" href="https://everesthetic.ru">Сайт клиники</a>
-                        <a href="#video-cover" class="reception__link-video"><img class="reception__link-icon"
-                                src="./images/icon-play.svg" alt=""> О клинике</a>
+        <div class="container">
+            <section class="experience" id="experience">
+                <div class="experience__wrapper">
+                    <h2 class="experience__title">Опыт работы</h2>
+                    <div class="experience__grid">
+                        <div class="experience__grid-item">
+                            <h3 class="experience__grid-item__title">C 2017 г</h3>
+                            <p class="experience__grid-item__subtitle">Врач-дерматовенеролог клиники эстетической
+                                медицины
+                                «ЭверЭстетик»</p>
+                        </div>
+                        <div class="experience__grid-item">
+                            <h3 class="experience__grid-item__title">2002–2017 г</h3>
+                            <p class="experience__grid-item__subtitle">Врач — дерматовенеролог клиники превентивной
+                                медицины
+                                «Валлекс Мёд»</p>
+                        </div>
+                        <div class="experience__grid-item">
+                            <h3 class="experience__grid-item__title">1998-2002 г</h3>
+                            <p class="experience__grid-item__subtitle">Косметолог в клинике г. Ростов-на-Дону</p>
+                        </div>
+                        <div class="experience__grid-item">
+                            <h3 class="experience__grid-item__title">C 1998 года</h3>
+                            <p class="experience__grid-item__subtitle">Стаж работы</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <img class="reception__img" src="./images/reception.png" alt="">
-        </section>
+                <div class="experience__photos">
+                    <img class="experience__img1" src="./images/experience1.png" alt="">
+                    <img class="experience__img2" src="./images/experience2.png" alt="">
+                </div>
+            </section>
 
+            <section class="education" id="education">
+                <h2 class="education__title">Образование</h2>
+                <ul class="education__list">
+                    <li class="education__item">
+                        <h4 class="education__item__title">1995 г.</h4>
+                        <p class="education__item__subtitle">Окончила Ростовский Государственный Медицинский Университет
+                            по специальности «Педиатрия»</p>
+                    </li>
+                    <li class="education__item">
+                        <h4 class="education__item__title">1996 г.</h4>
+                        <p class="education__item__subtitle">Закончила интернатура на кафедре кожных и венерических
+                            болезней, в последующие годы неоднократно повышала квалификацию</p>
+                    </li>
+                    <li class="education__item">
+                        <h4 class="education__item__title">2005 г.</h4>
+                        <p class="education__item__subtitle">Повышение квалификации «Контурная пластика» в «Национальной
+                            Академии Эстетической и Антиэйджинг Медицины»</p>
+                    </li>
+                    <li class="education__item">
+                        <h4 class="education__item__title">2007 г.</h4>
+                        <p class="education__item__subtitle">Повышение квалификации по специальности «Эстетическая
+                            неврология» при ГОУ ВПО ММА
+                            им. Сеченова Росздрава</p>
+                    </li>
+                </ul>
+                <!-- <a class="education__link" href="#">Ещё</a> -->
+                <ul class="education__list_hide">
+                    <li class="education__item">
+                        <h4 class="education__item__title">1995 г.</h4>
+                        <p class="education__item__subtitle">Окончила Ростовский Государственный Медицинский Университет
+                            по специальности «Педиатрия»</p>
+                    </li>
+                    <li class="education__item">
+                        <h4 class="education__item__title">1996 г.</h4>
+                        <p class="education__item__subtitle">Закончила интернатура на кафедре кожных и венерических
+                            болезней, в последующие годы неоднократно повышала квалификацию</p>
+                    </li>
+                    <li class="education__item">
+                        <h4 class="education__item__title">2005 г.</h4>
+                        <p class="education__item__subtitle">Повышение квалификации «Контурная пластика» в «Национальной
+                            Академии Эстетической и Антиэйджинг Медицины»</p>
+                    </li>
+                    <li class="education__item">
+                        <h4 class="education__item__title">2007 г.</h4>
+                        <p class="education__item__subtitle">Повышение квалификации по специальности «Эстетическая
+                            неврология» при ГОУ ВПО ММА
+                            им. Сеченова Росздрава</p>
+                    </li>
+                </ul>
+                <button class="education__link">Ещё</button>
+            </section>
+
+            <section class="main-directions" id="main-directions">
+                <h2 class="main-directions__title">Основные направления</h2>
+                <div class="main-directions__grid">
+                    <div class="main-directions__grid-item">
+                        <img class="main-directions__grid-item__img" src="./images/main-directions1.png" alt="">
+                        <h4 class="main-directions__grid-item__title">Инъекционная косметология</h4>
+                        <p class="main-directions__grid-item__subtitle">Биоревитализация, контурная пластика, коррекция
+                            морщин</p>
+                    </div>
+                    <div class="main-directions__grid-item">
+                        <img class="main-directions__grid-item__img" src="./images/main-directions2.png" alt="">
+                        <h4 class="main-directions__grid-item__title">Аппаратная косметология</h4>
+                        <p class="main-directions__grid-item__subtitle">Лазерное и фотоомоложение, ультразвуковой
+                            лифтинг,
+                            радиоволновой лифтинг</p>
+                    </div>
+                    <div class="main-directions__grid-item">
+                        <img class="main-directions__grid-item__img" src="./images/main-directions3.png" alt="">
+                        <h4 class="main-directions__grid-item__title">Лечение и профилактика старения кожи</h4>
+                        <p class="main-directions__grid-item__subtitle"></p>
+                    </div>
+                    <div class="main-directions__grid-item">
+                        <img class="main-directions__grid-item__img" src="./images/main-directions4.png" alt="">
+                        <h4 class="main-directions__grid-item__title">Профессиональное обучение косметологии</h4>
+                        <p class="main-directions__grid-item__subtitle">Семинары, тренинги, теория и практическая
+                            деятельность</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="reviews" id="reviews">
+                <h2 class="reviews__title">Видео-отзывы</h2>
+                <div class="reviews__grid">
+                    <div class="reviews__grid-item">
+                        <!-- <img class="reviews__grid-item__img" src="./images/review1.png" alt=""> -->
+                        <video class="reviews__video" controls width="370px" height="300px" poster="./images/review1.png"
+                            src="./images/video__cover.mp4"></video>
+                        <h4 class="reviews__grid-item__title">Подтяжка лица</h4>
+                        <p class="reviews__grid-item__subtitle">Валерия</p>
+                    </div>
+                    <div class="reviews__grid-item">
+                        <video class="reviews__video"  controls width="370px" height="300px" poster="./images/review2.png"
+                            src="./images/video__cover.mp4"></video>
+                        <h4 class="reviews__grid-item__title">Лечение пигментации методом BBL</h4>
+                        <p class="reviews__grid-item__subtitle">Максим</p>
+                    </div>
+                    <div class="reviews__grid-item">
+                        <video class="reviews__video"  controls width="370px" height="300px" poster="./images/review3.png"
+                            src="./images/video__cover.mp4"></video>
+                        <h4 class="reviews__grid-item__title">Подтяжка лица</h4>
+                        <p class="reviews__grid-item__subtitle">Татьяна</p>
+                    </div>
+                    <div class="reviews__grid-item">
+                        <video class="reviews__video"  controls width="370px" height="300px" poster="./images/review4.png"
+                            src="./images/video__cover.mp4"></video>
+                        <h4 class="reviews__grid-item__title">коррекция морщин препаратом Диспорт</h4>
+                        <p class="reviews__grid-item__subtitle">Ксения</p>
+                    </div>
+                </div>
+                <div class="reviews__grid_hide">
+                    <div class="reviews__grid-item">
+                        <!-- <img class="reviews__grid-item__img" src="./images/review1.png" alt=""> -->
+                        <video class="reviews__video"  controls width="370px" height="300px" poster="./images/review1.png"
+                            src="./images/video__cover.mp4"></video>
+                        <h4 class="reviews__grid-item__title">Подтяжка лица</h4>
+                        <p class="reviews__grid-item__subtitle">Валерия</p>
+                    </div>
+                    <div class="reviews__grid-item">
+                        <video class="reviews__video"  controls width="370px" height="300px" poster="./images/review2.png"
+                            src="./images/video__cover.mp4"></video>
+                        <h4 class="reviews__grid-item__title">Лечение пигментации методом BBL</h4>
+                        <p class="reviews__grid-item__subtitle">Максим</p>
+                    </div>
+                    <div class="reviews__grid-item">
+                        <video class="reviews__video"  controls width="370px" height="300px" poster="./images/review3.png"
+                            src="./images/video__cover.mp4"></video>
+                        <h4 class="reviews__grid-item__title">Подтяжка лица</h4>
+                        <p class="reviews__grid-item__subtitle">Татьяна</p>
+                    </div>
+                    <div class="reviews__grid-item">
+                        <video class="reviews__video"  controls width="370px" height="300px" poster="./images/review4.png"
+                            src="./images/video__cover.mp4"></video>
+                        <h4 class="reviews__grid-item__title">коррекция морщин препаратом Диспорт</h4>
+                        <p class="reviews__grid-item__subtitle">Ксения</p>
+                    </div>
+                </div>
+                <button class="reviews__link">Ещё</button>
+            </section>
+
+            <section class="sertificat" id="sertificat">
+                <h2 class="sertificat__title">Сертификаты</h2>
+                <div class="sertificat__list">
+                    <div class="sertificat__list-item">
+                        <img class="sertificat__list-item__img" src="./images/sert1.png" alt="">
+                        <p class="sertificat__list-item__subtitle">Dyspot</p>
+                    </div>
+                    <div class="sertificat__list-item">
+                        <img class="sertificat__list-item__img" src="./images/sert2.png" alt="">
+                        <p class="sertificat__list-item__subtitle">Dyspot</p>
+                    </div>
+                    <div class="sertificat__list-item">
+                        <img class="sertificat__list-item__img" src="./images/sert3.png" alt="">
+                        <p class="sertificat__list-item__subtitle">Dyspot</p>
+                    </div>
+                    <div class="sertificat__list-item">
+                        <img class="sertificat__list-item__img" src="./images/sert4.png" alt="">
+                        <p class="sertificat__list-item__subtitle">Dyspot</p>
+                    </div>
+                    <div class="sertificat__list-item">
+                        <img class="sertificat__list-item__img" src="./images/sert5.png" alt="">
+                        <p class="sertificat__list-item__subtitle">Dyspot</p>
+                    </div>
+                    <div class="sertificat__list-item">
+                        <img class="sertificat__list-item__img" src="./images/sert6.png" alt="">
+                        <p class="sertificat__list-item__subtitle">Dyspot</p>
+                    </div>
+                </div>
+                <div class="sertificat__list_hide">
+                    <div class="sertificat__list-item">
+                        <img class="sertificat__list-item__img" src="./images/sert5.png" alt="">
+                        <p class="sertificat__list-item__subtitle">Dyspot</p>
+                    </div>
+                    <div class="sertificat__list-item">
+                        <img class="sertificat__list-item__img" src="./images/sert2.png" alt="">
+                        <p class="sertificat__list-item__subtitle">Dyspot</p>
+                    </div>
+                    <div class="sertificat__list-item">
+                        <img class="sertificat__list-item__img" src="./images/sert1.png" alt="">
+                        <p class="sertificat__list-item__subtitle">Dyspot</p>
+                    </div>
+                    <div class="sertificat__list-item">
+                        <img class="sertificat__list-item__img" src="./images/sert3.png" alt="">
+                        <p class="sertificat__list-item__subtitle">Dyspot</p>
+                    </div>
+                    <div class="sertificat__list-item">
+                        <img class="sertificat__list-item__img" src="./images/sert5.png" alt="">
+                        <p class="sertificat__list-item__subtitle">Dyspot</p>
+                    </div>
+                    <div class="sertificat__list-item">
+                        <img class="sertificat__list-item__img" src="./images/sert1.png" alt="">
+                        <p class="sertificat__list-item__subtitle">Dyspot</p>
+                    </div>
+                </div>
+                <button class="sertificat__link">Ещё</button>
+            </section>
+
+            <section class="media" id="media">
+                <h2 class="media__title">Медиаматериалы</h2>
+                <div class="media__wrapper">
+                    <div class="media__grid">
+                        <img class="media__img" src="./images/media_1.png" alt="">
+                        <img class="media__grid-img" src="./images/media_2.png" alt="">
+                        <img class="media__grid-img" src="./images/media_3.png" alt="">
+                        <img class="media__grid-img" src="./images/media_4.png" alt="">
+                        <img class="media__grid-img" src="./images/media_5.png" alt="">
+                    </div>
+                </div>
+            </section>
+
+            <section class="reception" id="reception">
+                <div class="reception__container">
+                    <h2 class="reception__title">Место приёма</h2>
+                    <div class="reception__textarea">
+                        <p class="reception__subtitle">
+                            EverEsthetic (ЭверЭстетик) — клиника эстетической медицины и косметологии с индивидуальным
+                            подходом к красоте и здоровью каждого пациента.
+                            <br>
+                            <span class="reception__span"></span>
+                            <br>
+                            Наша главная задача — раскрыть естественную, натуральную красоту каждого пациента и научить
+                            его заботиться о ней; в этом заключается наша философия.
+
+                        </p>
+
+                        <p class="reception__adress"><img class="reception__metro" src="./images/metro_icon.svg"
+                                alt="">Профсоюзная (800 м)</p>
+
+                        <p class="reception__adress">г. Москва, Нахимовский проспект, д. 56</p>
+                        <div class="reception__wrapper">
+                            <a class="reception__link-sait" href="https://everesthetic.ru">Сайт клиники</a>
+                            <a href="#video-cover" class="reception__link-video"><img class="reception__link-icon"
+                                    src="./images/icon-play.svg" alt=""> О клинике</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="reception__img"></div>
+            </section>
+        </div>
         <section class="follow" id="follow">
             <div class="follow__container">
                 <div class="follow__wrapper">
-                    <h2 class="follow__title">Оставатйесь на связи!</h2>
+                    <h2 class="follow__title">Оставайтесь на связи!</h2>
                     <p class="follow__subtitle">Переходите в социальные сети, которые удобны именно вам</p>
                 </div>
                 <div class="follow__wrapper">
@@ -503,7 +544,8 @@
                 <ul class="footer__list">
                     <li class="footer__list-item"><a class="footer__link" href="#about-me">О враче</a></li>
                     <li class="footer__list-item"><a class="footer__link" href="#experience">Биография</a></li>
-                    <li class="footer__list-item"><a class="footer__link" href="#main-directions">Основные направления</a></li>
+                    <li class="footer__list-item"><a class="footer__link" href="#main-directions">Основные
+                            направления</a></li>
                     <li class="footer__list-item"><a class="footer__link" href="#news">Новости</a></li>
                     <li class="footer__list-item"><a class="footer__link" href="#media">Медиаматериалы</a></li>
                     <li class="footer__list-item"><a class="footer__link" href="#reviews">Фоторезультаты</a></li>
@@ -514,7 +556,8 @@
                     <li class="footer__list-item"><a class="footer__link" href="#timetable">Вебинары</a></li>
                     <li class="footer__list-item"><a class="footer__link" href="#events">Мероприятия</a></li>
                     <li class="footer__list-item"><a class="footer__link" href="#">Партнёрам</a></li>
-                    <li class="footer__list-item"><a class="footer__link" href="#sertificat">Правовая информация</a></li>
+                    <li class="footer__list-item"><a class="footer__link" href="#sertificat">Правовая информация</a>
+                    </li>
                 </ul>
                 <div class="footer__info">
                     <h3 class="footer__text">Клиника эстетической медицины «ЭверЭстетик»
@@ -525,18 +568,23 @@
                         <br>
                         г. Москва, Нахимовский проспект, д. 56
                         info@everesthetic.ru
+                        <br>
                         +7 (495) 159 98 09
                     </h3>
                 </div>
             </div>
             <div class="footer__wrapper">
-            <img class="footer__logo" src="./images/footer__logo.svg" alt="">
-            <h3 class="footer__text">2022 Марина Чернышёва. Все права защищены.</h3>
-        </div>
+                <img class="footer__logo" src="./images/footer__logo.svg" alt="">
+                <h3 class="footer__text">2022 Марина Чернышёва. Все права защищены.</h3>
+            </div>
         </div>
         <img class="footer__infographic" src="./images/infographic_footer.svg" alt="">
     </footer>
+    <div class="totop" id="toTop"><img src="./images/toTop.png" alt=""></div>
+    <script src="./scripts/slider.js"></script>
+    <script src="./scripts/toTop.js"></script>
     <script src="./scripts/hideContent.js"></script>
+    <script src="./scripts/scroll.js"></script>
 </body>
 
 </html>

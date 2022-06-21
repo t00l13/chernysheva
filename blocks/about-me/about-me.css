@@ -1,10 +1,14 @@
 .about-me{
-    width: calc(100% - 320px);
     margin: 0 auto;
+    margin-top: 91px;
     display: flex;
 }
 .about-me__img{
-
+    background-image: url('../../images/about-me__marina.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 780px;
+    height: 600px;
 }
 .about-me__textarea{
     display: flex;
@@ -46,152 +50,28 @@
     margin-bottom: 40px;
 }
 
-@media (max-width:1441px) {
+@media (min-width: 1200px) and (max-width: 1900px) {
     .about-me{
-        width: calc(100% - 220px);
-        margin-top: 50px;
+        margin: 0 auto;
+        margin-top: 72px;
+        display: flex;
     }
     .about-me__img{
-        width: 640px;
-        height: 480px;
+        background-image: url('../../images/about-me__marina1200.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        max-width: 570px;
+        min-height: 628px;
     }
     .about-me__textarea{
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
         margin-left: 30px;
     }
     .about-me__title{
-        font-family: 'Trajan Pro 3';
-        font-style: normal;
-        font-weight: 300;
-        font-size: 40px;
-        line-height: 53px;
-        margin: 0;
-        margin-bottom: 15px;
+        font-size: 48px;
+        line-height: 62px;
     }
     .about-me__subtitle{
-    
-        font-family: 'Iowan Old Style';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 32px;
-        color: #828282;
-        margin: 0;
-        margin-bottom: 25px;
-        max-width: 580px;
+        margin-bottom: 50px;
+        max-width: 570px;
     }
-    .about-me__profession{
-        font-family: 'Trajan Pro 3';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 41px;
-        margin: 0;
-        margin-bottom: 20px;
-    }
-    .about-me__profession:last-child{
-        margin-bottom: 30px;
-    }
-}
-
-@media (max-width:1367px) {
-    .about-me{
-        width: calc(100% - 200px);
-        margin-top: 45px;
-    }
-    .about-me__img{
-        width: 620px;
-        height: 460px;
-    }
-    .about-me__textarea{
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
-        margin-left: 30px;
-    }
-    .about-me__title{
-        font-family: 'Trajan Pro 3';
-        font-style: normal;
-        font-weight: 300;
-        font-size: 38px;
-        line-height: 53px;
-        margin: 0;
-        margin-bottom: 15px;
-    }
-    .about-me__subtitle{
-    
-        font-family: 'Iowan Old Style';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 32px;
-        color: #828282;
-        margin: 0;
-        margin-bottom: 25px;
-        max-width: 580px;
-    }
-    .about-me__profession{
-        font-family: 'Trajan Pro 3';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 41px;
-        margin: 0;
-        margin-bottom: 20px;
-    }
-    .about-me__profession:last-child{
-        margin-bottom: 30px;
-    }
-}
-
-@media only screen and (min-width: 1023px) and (max-width: 1181px){
-    .about-me{
-        width: calc(100% - 160px);
-        margin-top: 45px;
-    }
-    .about-me__img{
-        width: 520px;
-        height: 360px;
-    }
-    .about-me__textarea{
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
-        margin-left: 30px;
-    }
-    .about-me__title{
-        font-family: 'Trajan Pro 3';
-        font-style: normal;
-        font-weight: 300;
-        font-size: 32px;
-        line-height: 42px;
-        margin: 0;
-        margin-bottom: 15px;
-    }
-    .about-me__subtitle{
-    
-        font-family: 'Iowan Old Style';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 12px;
-        line-height: 28px;
-        color: #828282;
-        margin: 0;
-        margin-bottom: 25px;
-        max-width: 580px;
-    }
-    .about-me__profession{
-        font-family: 'Trajan Pro 3';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 32px;
-        margin: 0;
-        margin-bottom: 10px;
-    }
-    .about-me__profession:last-child{
-        margin-bottom: 30px;
-    }
-}
+  }

@@ -1,6 +1,4 @@
 .news{
-    width: calc(100% - 320px);
-    margin: 0 auto;
     margin-top: 120px;
     margin-bottom: 50px;
     display: flex;
@@ -12,7 +10,7 @@
     font-style: normal;
     font-weight: 300;
     font-size: 56px;
-    line-height: 130%;
+    line-height: 62px;
     margin: 0;
 }
 .news__list{
@@ -32,13 +30,9 @@
 .news__item-textarea{
     margin: 0;
     margin-right: 40px;
-    display: none;
+    display: flex;
     flex-direction: column;
     justify-content: center;
-}
-
-.active{
-    display: flex;
 }
 
 .news__next{
@@ -49,10 +43,6 @@
 .news__prev{
     position: absolute;
     left: 115px;
-}
-
-.prev_active{
-
 }
 
 .news__item-title{
@@ -90,351 +80,33 @@
     margin: 0;
 }
 
-
-
-
-
-@media (max-width:1441px) {
-
+@media (min-width: 1200px) and (max-width: 1900px) {
     .news{
-        width: calc(100% - 220px);
-        margin: 0 auto;
-        margin-top: 90px;
-        margin-bottom: 50px;
-        display: flex;
-        flex-direction: column;
+        margin-top: 100px;
+        margin-bottom: 100px;
     }
-    
     .news__title{
-        font-family: 'Trajan Pro 3';
-        font-style: normal;
-        font-weight: 300;
-        font-size: 40px;
-        line-height: 53px;
-        margin: 0;
+        font-size: 48px;
+        line-height: 62px;
     }
-    .news__list{
-        margin-top: 50px;
-        display: flex;
-        flex-direction: row;
-    }
-    .news__item{
-        display: flex;
-    }
-    
     .news__item-img{
         margin-right: 30px;
-        width: 270px;
-        height: 380px;
-    }
     
-    .news__item-textarea{
-        margin: 0;
-        margin-right: 40px;
+    }
+    .news__item:last-child{
         display: none;
-        flex-direction: column;
-        justify-content: center;
     }
-    
-    .active{
-        display: flex;
-    }
-    
-    .news__next{
-        position: absolute;
-        align-self: self-end;
-        margin: 0 0 0 65px;
-    }
-    .news__prev{
-        position: absolute;
-        left: 80px;
-    }
-    
-    .prev_active{
-    
-    }
-    
     .news__item-title{
-        font-family: 'Trajan Pro 3';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 170%;
+        line-height: 40px;
         max-width: 370px;
-        min-height: 163px;
-        margin: 0;
-        margin-bottom: 10px;
+        min-height: 149px;
     }
-    
     .news__item-subtitle{
-        font-family: 'Iowan Old Style';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 14px;
+        font-size: 18px;
         line-height: 32px;
-        color: #828282;
-        margin: 0;
-        margin-bottom: 15px;
-    }
-    
-    .news__item-date{
-        font-family: 'Iowan Old Style';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 180%;
-        color: #828282;
-        margin: 0;
-    }
-}
-
-@media (max-width:1367px) {
-
-    .news{
-        width: calc(100% - 200px);
-        margin: 0 auto;
-        margin-top: 80px;
-        margin-bottom: 45px;
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .news__title{
-        font-family: 'Trajan Pro 3';
-        font-style: normal;
-        font-weight: 300;
-        font-size: 38px;
-        line-height: 48px;
-        margin: 0;
-    }
-    .news__list{
-        margin-top: 50px;
-        display: flex;
-        flex-direction: row;
-    }
-    .news__item{
-        display: flex;
-    }
-    
-    .news__item-img{
-        margin-right: 30px;
-        width: 260px;
-        height: 370px;
-    }
-    
-    .news__item-textarea{
-        margin: 0;
-        margin-right: 40px;
-        display: none;
-        flex-direction: column;
-        justify-content: center;
-    }
-    
-    .active{
-        display: flex;
-    }
-    
-    .news__next{
-        position: absolute;
-        align-self: self-end;
-        margin: 0 0 0 75px;
-    }
-    .news__prev{
-        position: absolute;
-        left: 70px;
-    }
-    
-    .prev_active{
-    
-    }
-    
-    .news__item-title{
-        font-family: 'Trajan Pro 3';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 190%;
         max-width: 370px;
-        min-height: 133px;
-        margin: 0;
-        margin-bottom: 10px;
+        min-height: 150px;
     }
     
-    .news__item-subtitle{
-        font-family: 'Iowan Old Style';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 28px;
-        color: #828282;
-        margin: 0;
-        margin-bottom: 5px;
-    }
-    
-    .news__item-date{
-        font-family: 'Iowan Old Style';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 180%;
-        color: #828282;
-        margin: 0;
-    }
-}
-@media only screen and (min-width: 1181px) and (max-width: 1280px){
-    .news{
-        width: calc(100% - 180px);
-        margin: 0 auto;
-        margin-top: 60px;
-        margin-bottom: 35px;
-        display: flex;
-        flex-direction: column;
-    }
-    .news__next{
-        position: absolute;
-        align-self: self-end;
-        margin: 0 0 0 55px;
-        width: 45px;
-        height: 45px;
-    }
-    .news__prev{
-        position: absolute;
-        left: 60px;
-        width: 25px;
-        height: 25px;
-    }
-    .news__item-title{
-        font-family: 'Trajan Pro 3';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 120%;
-        max-width: 300px;
-        min-height: 60px;
-        margin: 0;
-        margin-bottom: 20px;
-    }
-    
-    .news__item-subtitle{
-        font-family: 'Iowan Old Style';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 18px;
-        color: #828282;
-        margin: 0;
-    }
-    
-    .news__item-date{
-        font-family: 'Iowan Old Style';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 120%;
-        color: #828282;
-        margin: 0;
-    }
-    .news__item-img{
-        margin-right: 30px;
-        width: 250px;
-        height: 350px;
-    }
-    
-}
+  }
 
-@media only screen and (min-width: 1023px) and (max-width: 1181px){
-    .news{
-        width: calc(100% - 160px);
-        margin: 0 auto;
-        margin-top: 60px;
-        margin-bottom: 35px;
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .news__title{
-        font-family: 'Trajan Pro 3';
-        font-style: normal;
-        font-weight: 300;
-        font-size: 32px;
-        line-height: 42px;
-        margin: 0;
-    }
-    .news__list{
-        margin-top: 40px;
-        display: flex;
-        flex-direction: row;
-    }
-    .news__item{
-        display: flex;
-    }
-    
-    .news__item-img{
-        margin-right: 30px;
-        width: 190px;
-        height: 260px;
-    }
-    
-    .news__item-textarea{
-        margin: 0;
-        margin-right: 20px;
-        display: none;
-        flex-direction: column;
-        justify-content: center;
-    }
-    
-    .active{
-        display: flex;
-    }
-    
-    .news__next{
-        position: absolute;
-        align-self: self-end;
-        margin: 0 0 0 45px;
-        width: 35px;
-        height: 35px;
-    }
-    .news__prev{
-        position: absolute;
-        left: 50px;
-        width: 20px;
-        height: 20px;
-    }
-    
-    .prev_active{
-    
-    }
-    
-    .news__item-title{
-        font-family: 'Trajan Pro 3';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 100%;
-        max-width: 270px;
-        min-height: 60px;
-        margin: 0;
-        margin-bottom: 10px;
-    }
-    
-    .news__item-subtitle{
-        font-family: 'Iowan Old Style';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 12px;
-        line-height: 18px;
-        color: #828282;
-        margin: 0;
-        margin-bottom: 5px;
-    }
-    
-    .news__item-date{
-        font-family: 'Iowan Old Style';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 12px;
-        line-height: 120%;
-        color: #828282;
-        margin: 0;
-    }
-}

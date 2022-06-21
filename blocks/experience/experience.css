@@ -1,6 +1,4 @@
 .experience{
-    width: calc(100% - 320px);
-    margin: 0 auto;
     display: flex;
     margin-bottom: 120px;
     margin-top: 22px;
@@ -45,201 +43,43 @@
 }
 .experience__img1{
     margin-right: 42px;
-
+    background-image: url(../../images/experience1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 .experience__img2{
     align-self: flex-end;
+    background-image: url(../../images/experience2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
     height: 610px;
     width: 368px;
 }
 
-@media (max-width:1441px){
+@media (min-width: 1200px) and (max-width: 1900px) {
     .experience{
-        width: calc(100% - 220px);
-        margin: 0 auto;
-        display: flex;
-        margin-bottom: 90px;
-        margin-top: 22px;
-        justify-content: space-between;
+        margin-bottom: 100px;
+        margin-top: 31px;
         align-items: flex-end;
-    }
-    .experience__wrapper{
-        margin-right: 76px;
-    }
-    .experience__title{
-        font-family: 'Trajan Pro 3';
-        font-style: normal;
-        font-weight: 300;
-        font-size: 40px;
-        line-height: 53px;
-    }
-    .experience__grid{
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-        grid-gap: 50px;
-    }
-    .experience__grid-item{
-    
-    }
-    .experience__grid-item__title{
-        font-size: 18px;
-        line-height: 32px;
-    }
-    .experience__grid-item__subtitle{
-        font-family: 'Iowan Old Style';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 26px;
-        color: #828282;
-    }
-    .experience__photos{
-     display: flex;
-    }
-    .experience__img1{
-        margin-right: 32px;
-        height: 550px;
-        width: 268px;
-    }
-    .experience__img2{
-        align-self: flex-end;
-        height: 460px;
-        width: 268px;
-    }
-}
-@media (max-width:1367px){
-    .experience{
-        width: calc(100% - 200px);
-        margin: 0 auto;
-        display: flex;
-        margin-bottom: 80px;
-        margin-top: 22px;
-        justify-content: space-between;
-        align-items: flex-end;
-    }
-    .experience__wrapper{
-        margin-right: 63px;
-    }
-    .experience__title{
-        font-family: 'Trajan Pro 3';
-        font-style: normal;
-        font-weight: 300;
-        font-size: 38px;
-        line-height: 48px;
-    }
-    .experience__grid{
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-        grid-gap: 50px;
-    }
-    .experience__grid-item{
-    
-    }
-    .experience__grid-item__title{
-        font-size: 18px;
-        line-height: 28px;
-    }
-    .experience__grid-item__subtitle{
-        font-family: 'Iowan Old Style';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 26px;
-        color: #828282;
-    }
-    .experience__photos{
-     display: flex;
-    }
-    .experience__img1{
-        margin-right: 32px;
-        height: 550px;
-        width: 268px;
-    }
-    .experience__img2{
-        align-self: flex-end;
-        height: 460px;
-        width: 268px;
-    }
-}
-@media only screen and (min-width: 1181px) and (max-width: 1281px){
-    .experience{
-        width: calc(100% - 180px);
-        margin: 0 auto;
-        display: flex;
-        margin-bottom: 80px;
-        margin-top: 22px;
-        justify-content: space-between;
-        align-items: flex-end;
-    }
-    .experience__grid{
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-        grid-gap: 20px;
     }
     .experience__img1{
         margin-right: 30px;
-        height: 480px;
-        width: 240px;
+        background-image: url(../../images/experience11200.png);
+        width: 270px;
+        height: 517px;
     }
     .experience__img2{
-        align-self: flex-end;
-        height: 415px;
-        width: 240px;
-    }
-}
-@media only screen and (min-width: 1023px) and (max-width: 1181px){
-    .experience{
-        width: calc(100% - 160px);
-        margin: 0 auto;
-        display: flex;
-        margin-bottom: 50px;
-        margin-top: 22px;
-        justify-content: space-between;
-        align-items: flex-end;
-    }
-    .experience__wrapper{
-        margin-right: 63px;
-    }
-    .experience__title{
-        font-family: 'Trajan Pro 3';
-        font-style: normal;
-        font-weight: 300;
-        font-size: 32px;
-        line-height: 42px;
-        margin: 0;
-        margin-bottom: 10px;
+        background-image: url(../../images/experience21200.png);
+        height: 447px;
+        width: 270px;
     }
     .experience__grid{
+        align-self: none;
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-        grid-gap: 10px;
+        grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+        grid-gap: 0;
     }
-    .experience__grid-item{
-    
+    .experience__wrapper{
+        margin-right: 30px;
     }
-    .experience__grid-item__title{
-        font-size: 16px;
-        line-height: 28px;
-    }
-    .experience__grid-item__subtitle{
-        font-family: 'Iowan Old Style';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 12px;
-        line-height: 26px;
-        color: #828282;
-    }
-    .experience__photos{
-     display: flex;
-    }
-    .experience__img1{
-        margin-right: 22px;
-        height: 400px;
-        width: 200px;
-    }
-    .experience__img2{
-        align-self: flex-end;
-        height: 347px;
-        width: 200px;
-    }
-}
+  }

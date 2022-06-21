@@ -1,6 +1,4 @@
 .main-directions{
-    width: calc(100% - 320px);
-    margin: 0 auto;
     margin-bottom: 120px;
 }
 
@@ -45,155 +43,20 @@
     margin: 0;
 }
 
-@media (max-width:1441px){
+@media (min-width: 1200px) and (max-width: 1900px) {
     .main-directions{
-        width: calc(100% - 220px);
-        margin: 0 auto;
-        margin-bottom: 90px;
+        margin-bottom: 100px;
     }
-    
     .main-directions__title{
-        font-family: 'Trajan Pro 3';
-        font-style: normal;
-        font-weight: 300;
-        font-size: 40px;
-        line-height: 53px;
+        font-size: 48px;
+        line-height: 62px;
     }
-    
     .main-directions__grid{
-        display: grid;
         grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
         grid-gap: 30px;
     }
-    
-    .main-directions__grid-item{
-    
-    }
-    
     .main-directions__grid-item__img{
         width: 270px;
         height: 270px;
     }
-    
-    .main-directions__grid-item__title{
-        font-family: 'Trajan Pro 3';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 31px;
-        margin: 18px 0 10px 0;
-    }
-    
-    .main-directions__grid-item__subtitle{
-        font-family: 'Iowan Old Style';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 32px;
-        color: #828282;
-        margin: 0;
-        max-width: 400px;
-    }
-}
-@media (max-width:1367px){
-    .main-directions{
-        width: calc(100% - 200px);
-        margin: 0 auto;
-        margin-bottom: 80px;
-    }
-    
-    .main-directions__title{
-        font-family: 'Trajan Pro 3';
-        font-style: normal;
-        font-weight: 300;
-        font-size: 38px;
-        line-height: 48px;
-    }
-    
-    .main-directions__grid{
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-        grid-gap: 20px;
-    }
-    
-    .main-directions__grid-item{
-    
-    }
-    
-    .main-directions__grid-item__img{
-        width: 270px;
-        height: 270px;
-    }
-    
-    .main-directions__grid-item__title{
-        font-family: 'Trajan Pro 3';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 31px;
-        margin: 18px 0 10px 0;
-    }
-    
-    .main-directions__grid-item__subtitle{
-        font-family: 'Iowan Old Style';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 32px;
-        color: #828282;
-        margin: 0;
-        max-width: 400px;
-    }
-}
-
-@media only screen and (min-width: 1023px) and (max-width: 1181px){
-    .main-directions{
-        width: calc(100% - 160px);
-        margin: 0 auto;
-        margin-bottom: 50px;
-    }
-    
-    .main-directions__title{
-        font-family: 'Trajan Pro 3';
-        font-style: normal;
-        font-weight: 300;
-        font-size: 32px;
-        line-height: 42px;
-    }
-    
-    .main-directions__grid{
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-        grid-gap: 10px;
-        justify-items: center;
-    }
-    
-    .main-directions__grid-item{
-    
-    }
-    
-    .main-directions__grid-item__img{
-        width: 170px;
-        height: 170px;
-    }
-    
-    .main-directions__grid-item__title{
-        font-family: 'Trajan Pro 3';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 26px;
-        margin: 18px 0 10px 0;
-    }
-    
-    .main-directions__grid-item__subtitle{
-        font-family: 'Iowan Old Style';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 12px;
-        line-height: 24px;
-        color: #828282;
-        margin: 0;
-        max-width: 400px;
-    }
-}
+  }

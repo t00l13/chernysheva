@@ -1,0 +1,17 @@
+.totop{
+    max-width:20px;
+    max-height: 20px;
+    padding:5px;
+    position:fixed;
+    bottom:100px; /* отступ кнопки от нижнего края страницы*/
+    right:80px;
+    cursor:pointer;
+    display:none;
+    opacity: 0.8;
+    z-index: 10;
+}
+
+.totop img{
+    width: 70px;
+    height: 70px;
+}

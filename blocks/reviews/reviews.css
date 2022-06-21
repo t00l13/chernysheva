@@ -1,6 +1,4 @@
 .reviews{  
-    width: calc(100% - 320px);
-    margin: 0 auto;
     margin-bottom: 120px;
     display: flex;
     flex-direction: column;
@@ -64,177 +62,38 @@
     transition: 1s linear;
 }
 
-.reviews__link{
+.reviews__link:hover{
     color: #fff;
     background-color: #000;
 }
 
-@media (max-width:1441px){
+
+@media (min-width: 1200px) and (max-width: 1900px) {
     .reviews{  
-        width: calc(100% - 220px);
-        margin: 0 auto;
-        margin-bottom: 90px;
+        margin-bottom: 100px;
         display: flex;
         flex-direction: column;
     }
     .reviews__title{
-        font-family: 'Trajan Pro 3';
-        font-style: normal;
-        font-weight: 300;
-        font-size: 40px;
-        line-height: 53px;
+        font-size: 48px;
+        line-height: 62px;
     }
-    
     .reviews__grid{
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
-        grid-gap: 20px;
+        grid-gap: 30px;
     }
-    
-    .reviews__grid-item{
-        border-radius: 5px;
+    .reviews__video{
+        width: 270px;
+        height: 300px;
+        
     }
-    
-    .reviews__grid-item__title{
-        font-family: 'Trajan Pro 3';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 32px;
-        margin: 20px 0 10px 0;
-    }
-    .reviews__grid-item__subtitle{
-        font-family: 'Iowan Old Style';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 24px;
-        color: #828282;
-        margin: 0;
+    .reviews__link{
+        padding: 17px 30px;
     }
     .reviews__grid_hide{
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
-        grid-gap: 20px;
+        grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+        grid-gap: 30px;
     }
-    
-    .reviews__link{
-        font-family: 'Trajan Pro 3';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 16px;
-        line-height: 16px;
-        padding: 21px 39px;
-        border: 1px solid #000;
-        border-radius: 5px;
-        text-align: center;
-        color: #000;
-        text-decoration: none;
-        margin: 0 auto;
-        margin-top: 47px;
-        background-color: transparent;
-        transition: 1s linear;
-    }
-    
-    .reviews__link{
-        color: #fff;
-        background-color: #000;
-    }
-}
-
-@media (max-width:1441px){
-    .reviews{  
-        width: calc(100% - 200px);
-        margin: 0 auto;
-        margin-bottom: 80px;
-        display: flex;
-        flex-direction: column;
-    }
-    .reviews__title{
-        font-family: 'Trajan Pro 3';
-        font-style: normal;
-        font-weight: 300;
-        font-size: 38px;
-        line-height: 48px;
-    }
-    
-    .reviews__grid{
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
-        grid-gap: 20px;
-    }
-    
-    .reviews__grid-item{
-        border-radius: 5px;
-    }
- 
-}
-@media only screen and (min-width: 1181px) and (max-width: 1281px){
-    .reviews{  
-        width: calc(100% - 180px);
-        margin: 0 auto;
-        margin-bottom: 50px;
-        display: flex;
-        flex-direction: column;
-    }
-    .reviews__grid{
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
-        grid-gap: 10px;
-        justify-items: center;
-    }
-    .reviews__grid_hide{
-        justify-items: center;
-    }
-}
-
-@media only screen and (min-width: 1023px) and (max-width: 1181px){
-    .reviews{  
-        width: calc(100% - 160px);
-        margin: 0 auto;
-        margin-bottom: 50px;
-        display: flex;
-        flex-direction: column;
-    }
-    .reviews__title{
-        font-family: 'Trajan Pro 3';
-        font-style: normal;
-        font-weight: 300;
-        font-size: 32px;
-        line-height: 42px;
-    }
-    
-    .reviews__grid{
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
-        grid-gap: 10px;
-        justify-items: center;
-    }
-    
-    .reviews__grid-item{
-        border-radius: 5px;
-    }
-
-    .reviews__link{
-        font-family: 'Trajan Pro 3';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 14px;
-        line-height: 16px;
-        padding: 11px 20px;
-        border: 1px solid #000;
-        border-radius: 5px;
-        text-align: center;
-        color: #000;
-        text-decoration: none;
-        margin: 0 auto;
-        margin-top: 20px;
-        background-color: transparent;
-        transition: 1s linear;
-    }
-    .reviews__grid_hide{
-        justify-items: center;
-    }
-    
-}
-
+  }
