@@ -4,7 +4,7 @@
     display: flex;
 }
 .footer__container{
-    min-width: 1600px;
+    max-width: 1600px;
     margin: 0 auto;
 }
 .footer__wrapper{
@@ -20,7 +20,7 @@
 .footer__list{
     margin: 0;
     margin-right: 40px;
-    min-width: 370px;
+    width: 370px;
     list-style: none ;
 }
 .footer__list-item{
@@ -77,6 +77,9 @@
     position: absolute;
     align-self: flex-end;
 }
+.footer__list__wrapper{
+    display: flex;
+}
 
 @media (min-width: 1200px) and (max-width: 1900px) {
     .footer__container{
@@ -89,5 +92,59 @@
     }
     .footer__list-item{
         margin-bottom: 30px;
+    }
+  }
+
+  @media (min-width: 374px) and (max-width: 787px) {
+    .footer{
+        min-height: 685px;
+    }
+    .footer__container{
+        max-width: 343px;
+        margin: 0 auto;
+    }
+    .footer__infographic{
+        display: none;
+    }
+    .footer__text{
+        font-size: 14px;
+        line-height: 20px;
+        color: #fff;
+        min-width: 168px;
+    }
+    .footer__wrapper_text{
+        flex-direction: column;
+    }
+    .footer__logo{
+        display: none;
+    }
+    .footer__list{
+        width: 168px;
+        margin: 0;
+        margin-right: 8px;
+    }
+    .footer__list__wrapper{
+        margin-top: 80px;
+    }
+    .footer__list-item{
+        margin-bottom: 15px;
+    }
+    .footer__info{
+        margin-top: 70px;
+    }
+    .footer__text{
+        font-family: 'Iowan Old Style';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        color: #fff;
+    }
+    .footer__text_color{
+        color: #828282;
+        font-family: 'Iowan Old Style';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 25px;
     }
   }

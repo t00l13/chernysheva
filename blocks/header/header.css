@@ -102,6 +102,10 @@
     color: #000;
   }
 
+  .header__burger{
+    display: none;
+  }
+
   @media (min-width: 1200px) and (max-width: 1900px) {
     .header{
       min-height: 80px;
@@ -119,5 +123,103 @@
     .header__link-connect{
       padding: 12px 17px;
       margin-left: 20px;
+    }
+  }
+
+  @media (min-width: 374px) and (max-width: 789px) {
+
+    .logo img{
+      width: 220px;
+      height: 43px;
+    }
+
+    .header{
+      min-height: 80px;
+    }
+
+
+    .header__burger{
+      display: block;
+      position: relative;
+      height: 20px;
+      min-width: 30px;
+      position: relative;
+      z-index: 5;
+    }
+    .header__burger span{
+      position: absolute;
+      background-color: #000;
+      position: absolute;
+      left: 0;
+      width: 100%;
+      height: 2px;
+      top:10px;
+      transition: all 0.3s ease-in-out 0s;
+    }
+  
+    .header__burger::before,
+    .header__burger::after{
+      content: '';
+      background-color: #000;
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      left: 0;
+      transition: all 0.3s ease-in-out 0s;
+    }
+    .header__burger::before{
+      top: 0;
+    }
+    .header__burger::after{
+      bottom: -4px;
+    }
+    .header__burger.active:before {
+      transform: rotate(45deg);
+      top:11px;
+    }
+    .header__burger.active:after {
+      transform: rotate(-45deg);
+      bottom: 7px;
+    }
+    .header__burger.active span{
+      transform: scale(0);
+    }
+    .header__menu{
+      position: fixed;
+      top: -100%;
+      left: 0;
+      width: 100%;
+      background-color: #fff;
+      padding: 150px 0 0 0;
+      transition: all 0.3s ease 0s;
+    }
+    .header__menu.active{
+      top: 0;
+    }
+    .header__menu{
+      position: fixed;
+      top: -100%;
+      left: 0;
+      width: 100%;
+      background-color: #fff;
+      padding: 150px 0 0 0;
+      transition: all 0.3s ease 0s;
+    }
+    .header__menu.active{
+      top: 0;
+      height: 350px;
+    }
+    .header__list{
+      flex-direction: column;
+    }
+    .header__list li{
+      margin-bottom: 20px;
+    }
+    .header__link-connect{
+      padding: 12px 17px;
+      margin-left: 15px;
+    }
+    .header__menu{
+      padding: 120px 0 0 0;
     }
   }

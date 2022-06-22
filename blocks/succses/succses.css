@@ -1,0 +1,43 @@
+.succses-form{
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 420px;
+    height: 600px;
+    background: #fff;
+    border-radius: 20px;
+    margin: 45px 40px;
+    z-index: 25;
+    display: flex;
+    flex-direction:row-reverse;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.succses__close-btn{
+    background-color: transparent;
+    border: none;
+    align-self: flex-start;
+}
+.succses-form__title{
+    color: #000;
+    font-family: 'Trajan Pro 3';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 170%;
+    text-align: center;
+}
+.succses-form__subtitle{
+    margin: 0;
+    font-family: 'Iowan Old Style';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 29px;
+    color: #828282;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.succses__area{
+    margin-left: 40px;
+}

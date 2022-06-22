@@ -79,3 +79,35 @@
         padding: 17px 30px;
     }
   }
+
+  @media (min-width: 374px) and (max-width: 787px) {
+    .sertificat{
+        margin-bottom: 70px;
+    }
+    .sertificat__title{
+        font-size: 24px;
+        line-height: 36px;
+        margin-bottom: 30px;
+    }
+    .sertificat__list-item__img{
+        max-width: 165px;
+        max-height: 168px;
+    }
+    .sertificat__list{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+        grid-gap: 8px;
+    }
+    .sertificat__list_hide{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+        grid-gap: 8px;
+    }
+    .sertificat__list-item{
+        margin: 0;
+    }
+    .sertificat__link{
+        padding: 17px 0;
+        margin: 0;
+    }
+  }

@@ -7,11 +7,22 @@
     right:80px;
     cursor:pointer;
     display:none;
-    opacity: 0.8;
+    opacity: 0.6;
     z-index: 10;
 }
 
 .totop img{
     width: 70px;
     height: 70px;
+}
+
+@media (min-width: 374px) and (max-width: 787px) {
+    .totop{
+        right: 40px;
+        bottom: 40px;
+    }
+    .totop img{
+        width: 50px;
+        height: 50px;
+    }
 }

@@ -57,7 +57,9 @@
     color: #fff;
     background-color: #000;
 }
-
+.timetable__grid-item__link_375{
+    display: none;
+}
 @media (min-width: 1200px) and (max-width: 1900px) {
     .timetable{
         margin-top: 100px;
@@ -81,5 +83,59 @@
     .timetable__grid-item__link{
         line-height: 27px;
         padding: 12px 30px;
+    }
+  }
+
+  @media (min-width: 374px) and (max-width: 787px) {
+    .timetable{
+        margin-top: 70px;
+    }
+    .timetable__title{
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .timetable__grid{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+        grid-gap: 30px;
+        margin-bottom: 110px;
+    }
+    .timetable__grid-item__img{
+        width: 343px;
+        height: 200px;
+        object-fit: cover;
+        object-position: 0;
+    }
+    .timetable__grid-item__link{
+        line-height: 27px;
+        padding: 12px 30px;
+    }
+    .timetable__grid-item__wrapper{
+        display: flex;
+    }
+    .timetable__grid-item__subtitle{
+        font-size: 19px;
+        line-height: 29px;
+        margin: 15px 0 8px 0;
+    }
+    .timetable__grid-item__link{
+        display: none;
+        
+    }
+    .timetable__grid-item__link_375{
+        display: block ;
+        font-family: 'Trajan Pro 3';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        padding: 17px 20px;
+        max-width: 70px;
+        color: #000;
+        text-decoration: none;
+        border: 1px solid #000;
+        border-radius: 5px;
+        align-self: center;
+        transition: 1s linear;
     }
   }

@@ -55,6 +55,9 @@
     height: 610px;
     width: 368px;
 }
+.experience__title_375{
+    display: none;
+}
 
 @media (min-width: 1200px) and (max-width: 1900px) {
     .experience{
@@ -83,3 +86,58 @@
         margin-right: 30px;
     }
   }
+
+  @media (min-width: 375px) and (max-width: 787px) {
+    .experience{
+        margin-bottom: 70px;
+        margin-top: 70px;
+        align-items: flex-end;
+        flex-direction: column-reverse;
+    }
+    .experience__img1{
+        margin: 0;
+        margin-left: 8px;
+        background-image: url(../../images/experience1375.png);
+        width: 168px;
+        height: 321px;
+    }
+    .experience__img2{
+        background-image: url(../../images/experience2375.png);
+        height: 278px;
+        width: 168px;
+    }
+    .experience__grid{
+        align-self: none;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+        grid-gap: 8px;
+    }
+    .experience__wrapper{
+        margin: 0;
+    }
+    .experience__title{
+        display: none;
+    }
+    .experience__title_375{
+        margin: 0;
+        display: block;
+        align-self: flex-start;
+        font-family: 'Trajan Pro 3';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 31px;
+    }
+    .experience__photos{
+        flex-direction: row-reverse;
+    }
+    .experience__grid-item__title{
+        font-size: 19px;
+        line-height: 29px;
+    }
+    .experience__grid-item__subtitle{
+        font-size: 14px;
+        line-height: 25px;
+    }
+  }
+

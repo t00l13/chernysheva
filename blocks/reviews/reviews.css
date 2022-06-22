@@ -97,3 +97,9 @@
         grid-gap: 30px;
     }
   }
+
+  @media (min-width: 374px) and (max-width: 787px) {
+    .reviews{  
+        display: none;
+    }
+  }

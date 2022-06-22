@@ -75,3 +75,35 @@
         max-width: 570px;
     }
   }
+
+  @media (min-width: 374px) and (max-width: 787px) {
+    .about-me{
+        flex-direction: column;
+        margin-top: 60px;
+    }
+    .about-me__img{
+        background-image: url('../../images/about-me__marina375.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        max-width: 343px;
+        height: 350px;
+    }
+    .about-me__title{
+        margin-top: 30px;
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .about-me__subtitle{
+        font-size: 14;
+        line-height: 36px;
+        margin-bottom: 30px;
+        max-width: 343px;
+    }
+    .about-me__textarea{
+        margin: 0;
+    }
+    .about-me__profession{
+        font-size: 19px;
+        line-height: 29px;
+    }
+  }

@@ -34,4 +34,7 @@
 @import url('../blocks/follow/follow.css');
 
 @import url('../blocks/footer/footer.css');
+@import url('../blocks/contact-form/contact-form.css');
+@import url('../blocks/succses/succses.css');
+@import url('../blocks/popup/popup.css');
 @import url('../blocks/toTop/toTop.css');

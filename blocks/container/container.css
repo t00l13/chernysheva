@@ -10,3 +10,9 @@
 
     }
   }
+  @media (min-width: 374px) and (max-width: 787px) {
+    .container{
+      max-width: 343px;
+
+    }
+  }

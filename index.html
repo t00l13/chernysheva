@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./pages/index.css">
     <script src="./scripts/playerjs4.js" type="text/javascript"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./scripts/headerBurger.js"></script>
     <title>Marina Chernysheva</title>
 </head>
 
@@ -51,7 +52,7 @@
                         </div>
                         <div class="lead__btn-wrapper">
                             <img onclick="previousSlide()" class="lead__btn" src="./images/slide_left.svg" alt="">
-                            <img onclick="nextSlide()"class="lead__btn" src="./images/slide_right.svg" alt="">
+                            <img onclick="nextSlide()" class="lead__btn" src="./images/slide_right.svg" alt="">
                         </div>
                     </div>
                     <div class="lead__images">
@@ -74,7 +75,7 @@
                         </div>
                         <div class="lead__btn-wrapper">
                             <img onclick="previousSlide()" class="lead__btn" src="./images/slide_left.svg" alt="">
-                            <img onclick="nextSlide()"class="lead__btn" src="./images/slide_right.svg" alt="">
+                            <img onclick="nextSlide()" class="lead__btn" src="./images/slide_right.svg" alt="">
                         </div>
                     </div>
                     <div class="lead__images">
@@ -97,7 +98,7 @@
                         </div>
                         <div class="lead__btn-wrapper">
                             <img onclick="previousSlide()" class="lead__btn" src="./images/slide_left.svg" alt="">
-                            <img onclick="nextSlide()"class="lead__btn" src="./images/slide_right.svg" alt="">
+                            <img onclick="nextSlide()" class="lead__btn" src="./images/slide_right.svg" alt="">
                         </div>
                     </div>
                     <div class="lead__images">
@@ -221,30 +222,42 @@
                 <div class="timetable__grid">
                     <div class="timetable__grid-item">
                         <img class="timetable__grid-item__img" src="./images/timetable1.png" alt="">
-                        <p class="timetable__grid-item__subtitle">Применение препарта Диспорт / 01.05.22</p>
-                        <a class="timetable__grid-item__link" href="#">Записаться</a>
+                        <div class="timetable__grid-item__wrapper">
+                            <p class="timetable__grid-item__subtitle">Применение препарта Диспорт / 01.05.22</p>
+                            <a class="timetable__grid-item__link" href="#">Записаться</a>
+                            <a class="timetable__grid-item__link_375" href="#">Запись</a>
+                        </div>
                     </div>
                     <div class="timetable__grid-item">
                         <img class="timetable__grid-item__img" src="./images/timetable1.png" alt="">
-                        <p class="timetable__grid-item__subtitle">Применение препарта Диспорт / 01.05.22</p>
-                        <a class="timetable__grid-item__link" href="#">Записаться</a>
+                        <div class="timetable__grid-item__wrapper">
+                            <p class="timetable__grid-item__subtitle">Применение препарта Диспорт / 01.05.22</p>
+                            <a class="timetable__grid-item__link" href="#">Записаться</a>
+                            <a class="timetable__grid-item__link_375" href="#">Запись</a>
+                        </div>
                     </div>
                     <div class="timetable__grid-item">
                         <img class="timetable__grid-item__img" src="./images/timetable1.png" alt="">
-                        <p class="timetable__grid-item__subtitle">Применение препарта Диспорт / 01.05.22</p>
-                        <a class="timetable__grid-item__link" href="#">Записаться</a>
+                        <div class="timetable__grid-item__wrapper">
+                            <p class="timetable__grid-item__subtitle">Применение препарта Диспорт / 01.05.22</p>
+                            <a class="timetable__grid-item__link" href="#">Записаться</a>
+                            <a class="timetable__grid-item__link_375" href="#">Запись</a>
+                        </div>
                     </div>
                     <div class="timetable__grid-item">
                         <img class="timetable__grid-item__img" src="./images/timetable1.png" alt="">
-                        <p class="timetable__grid-item__subtitle">Применение препарта Диспорт / 01.05.22</p>
-                        <a class="timetable__grid-item__link" href="#">Записаться</a>
+                        <div class="timetable__grid-item__wrapper">
+                            <p class="timetable__grid-item__subtitle">Применение препарта Диспорт / 01.05.22</p>
+                            <a class="timetable__grid-item__link" href="#">Записаться</a>
+                            <a class="timetable__grid-item__link_375" href="#">Запись</a>
+                        </div>
                     </div>
                 </div>
             </section>
         </div>
         <section class="video-cover" id="video-cover">
             <div class="video-cover__container">
-                <div class="video-cover__player" id="player"></div>
+                <div class="video-cover__player" style="height: 600px;" id="player"></div>
                 <script>
                     var player = new Playerjs({ id: "player", file: "./images/video__cover.mp4", poster: "./images/video__cover-img.png" });
                 </script>
@@ -277,10 +290,12 @@
                         </div>
                     </div>
                 </div>
+                
                 <div class="experience__photos">
                     <img class="experience__img1" src="./images/experience1.png" alt="">
                     <img class="experience__img2" src="./images/experience2.png" alt="">
                 </div>
+                <h3 class="experience__title_375">Опыт работы</h3>
             </section>
 
             <section class="education" id="education">
@@ -340,12 +355,14 @@
                 <div class="main-directions__grid">
                     <div class="main-directions__grid-item">
                         <img class="main-directions__grid-item__img" src="./images/main-directions1.png" alt="">
+                        <img class="main-directions__grid-item__img_375" src="./images/main-directions1375.png" alt="">
                         <h4 class="main-directions__grid-item__title">Инъекционная косметология</h4>
                         <p class="main-directions__grid-item__subtitle">Биоревитализация, контурная пластика, коррекция
                             морщин</p>
                     </div>
                     <div class="main-directions__grid-item">
                         <img class="main-directions__grid-item__img" src="./images/main-directions2.png" alt="">
+                        <img class="main-directions__grid-item__img_375" src="./images/main-directions2375.png" alt="">
                         <h4 class="main-directions__grid-item__title">Аппаратная косметология</h4>
                         <p class="main-directions__grid-item__subtitle">Лазерное и фотоомоложение, ультразвуковой
                             лифтинг,
@@ -353,11 +370,13 @@
                     </div>
                     <div class="main-directions__grid-item">
                         <img class="main-directions__grid-item__img" src="./images/main-directions3.png" alt="">
+                        <img class="main-directions__grid-item__img_375" src="./images/main-directions3375.png" alt="">
                         <h4 class="main-directions__grid-item__title">Лечение и профилактика старения кожи</h4>
                         <p class="main-directions__grid-item__subtitle"></p>
                     </div>
                     <div class="main-directions__grid-item">
                         <img class="main-directions__grid-item__img" src="./images/main-directions4.png" alt="">
+                        <img class="main-directions__grid-item__img_375" src="./images/main-directions4375.png" alt="">
                         <h4 class="main-directions__grid-item__title">Профессиональное обучение косметологии</h4>
                         <p class="main-directions__grid-item__subtitle">Семинары, тренинги, теория и практическая
                             деятельность</p>
@@ -370,26 +389,26 @@
                 <div class="reviews__grid">
                     <div class="reviews__grid-item">
                         <!-- <img class="reviews__grid-item__img" src="./images/review1.png" alt=""> -->
-                        <video class="reviews__video" controls width="370px" height="300px" poster="./images/review1.png"
-                            src="./images/video__cover.mp4"></video>
+                        <video class="reviews__video" controls width="370px" height="300px"
+                            poster="./images/review1.png" src="./images/video__cover.mp4"></video>
                         <h4 class="reviews__grid-item__title">Подтяжка лица</h4>
                         <p class="reviews__grid-item__subtitle">Валерия</p>
                     </div>
                     <div class="reviews__grid-item">
-                        <video class="reviews__video"  controls width="370px" height="300px" poster="./images/review2.png"
-                            src="./images/video__cover.mp4"></video>
+                        <video class="reviews__video" controls width="370px" height="300px"
+                            poster="./images/review2.png" src="./images/video__cover.mp4"></video>
                         <h4 class="reviews__grid-item__title">Лечение пигментации методом BBL</h4>
                         <p class="reviews__grid-item__subtitle">Максим</p>
                     </div>
                     <div class="reviews__grid-item">
-                        <video class="reviews__video"  controls width="370px" height="300px" poster="./images/review3.png"
-                            src="./images/video__cover.mp4"></video>
+                        <video class="reviews__video" controls width="370px" height="300px"
+                            poster="./images/review3.png" src="./images/video__cover.mp4"></video>
                         <h4 class="reviews__grid-item__title">Подтяжка лица</h4>
                         <p class="reviews__grid-item__subtitle">Татьяна</p>
                     </div>
                     <div class="reviews__grid-item">
-                        <video class="reviews__video"  controls width="370px" height="300px" poster="./images/review4.png"
-                            src="./images/video__cover.mp4"></video>
+                        <video class="reviews__video" controls width="370px" height="300px"
+                            poster="./images/review4.png" src="./images/video__cover.mp4"></video>
                         <h4 class="reviews__grid-item__title">коррекция морщин препаратом Диспорт</h4>
                         <p class="reviews__grid-item__subtitle">Ксения</p>
                     </div>
@@ -397,26 +416,26 @@
                 <div class="reviews__grid_hide">
                     <div class="reviews__grid-item">
                         <!-- <img class="reviews__grid-item__img" src="./images/review1.png" alt=""> -->
-                        <video class="reviews__video"  controls width="370px" height="300px" poster="./images/review1.png"
-                            src="./images/video__cover.mp4"></video>
+                        <video class="reviews__video" controls width="370px" height="300px"
+                            poster="./images/review1.png" src="./images/video__cover.mp4"></video>
                         <h4 class="reviews__grid-item__title">Подтяжка лица</h4>
                         <p class="reviews__grid-item__subtitle">Валерия</p>
                     </div>
                     <div class="reviews__grid-item">
-                        <video class="reviews__video"  controls width="370px" height="300px" poster="./images/review2.png"
-                            src="./images/video__cover.mp4"></video>
+                        <video class="reviews__video" controls width="370px" height="300px"
+                            poster="./images/review2.png" src="./images/video__cover.mp4"></video>
                         <h4 class="reviews__grid-item__title">Лечение пигментации методом BBL</h4>
                         <p class="reviews__grid-item__subtitle">Максим</p>
                     </div>
                     <div class="reviews__grid-item">
-                        <video class="reviews__video"  controls width="370px" height="300px" poster="./images/review3.png"
-                            src="./images/video__cover.mp4"></video>
+                        <video class="reviews__video" controls width="370px" height="300px"
+                            poster="./images/review3.png" src="./images/video__cover.mp4"></video>
                         <h4 class="reviews__grid-item__title">Подтяжка лица</h4>
                         <p class="reviews__grid-item__subtitle">Татьяна</p>
                     </div>
                     <div class="reviews__grid-item">
-                        <video class="reviews__video"  controls width="370px" height="300px" poster="./images/review4.png"
-                            src="./images/video__cover.mp4"></video>
+                        <video class="reviews__video" controls width="370px" height="300px"
+                            poster="./images/review4.png" src="./images/video__cover.mp4"></video>
                         <h4 class="reviews__grid-item__title">коррекция морщин препаратом Диспорт</h4>
                         <p class="reviews__grid-item__subtitle">Ксения</p>
                     </div>
@@ -530,7 +549,7 @@
                     <p class="follow__subtitle">Переходите в социальные сети, которые удобны именно вам</p>
                 </div>
                 <div class="follow__wrapper">
-                    <h3 class="follow__text">Личная страница Instagram</h3>
+                    <a class="follow__link" href="https://instagram.com/doctor_chernysheva?igshid=YmMyMTA2M2Y="><h3 class="follow__text">Личная страница Instagram</h3></a>
                     <h3 class="follow__text">+7 (495) 159 98 09</h3>
                 </div>
             </div>
@@ -541,6 +560,7 @@
     <footer class="footer">
         <div class="footer__container">
             <div class="footer__wrapper_text">
+                <div class="footer__list__wrapper">
                 <ul class="footer__list">
                     <li class="footer__list-item"><a class="footer__link" href="#about-me">О враче</a></li>
                     <li class="footer__list-item"><a class="footer__link" href="#experience">Биография</a></li>
@@ -559,6 +579,7 @@
                     <li class="footer__list-item"><a class="footer__link" href="#sertificat">Правовая информация</a>
                     </li>
                 </ul>
+            </div>
                 <div class="footer__info">
                     <h3 class="footer__text">Клиника эстетической медицины «ЭверЭстетик»
                         <br>
@@ -575,12 +596,80 @@
             </div>
             <div class="footer__wrapper">
                 <img class="footer__logo" src="./images/footer__logo.svg" alt="">
-                <h3 class="footer__text">2022 Марина Чернышёва. Все права защищены.</h3>
+                <h3 class="footer__text_color">2022 Марина Чернышёва. Все права защищены.</h3>
             </div>
         </div>
         <img class="footer__infographic" src="./images/infographic_footer.svg" alt="">
     </footer>
+
+
+    <div class="popup popup_opened" id="contact">
+        <div class="form-wrapper">
+            <form class="contact-form" id="contact-form_1" method="POST" enctype="multipart/form-data">
+                <p class="contact-form__title">Свяжитесь с нами!</p>
+                <p class="contact-form__subtitle">Я помогаю своим пациентам комплексно решить проблемы со здоровьем и
+                    сохранить индивидуальную красоту. Сделайте шаг на встречу себе и запишитесь на первый приём!</p>
+                <p class="contact-form__description"></p>
+                <div class="contact-form__input-wrapper">
+                    <input name="name" type="text" class="contact-form__input contact-form__input_name"
+                        placeholder="ФИО">
+                    <div class="contact-form__error contact-form__error_name"></div>
+                </div>
+
+                <div class="contact-form__input-wrapper">
+                    <input name="tel" type="tel" class="contact-form__input contact-form__input_tel"
+                        placeholder="Введите телефон">
+                    <div class="contact-form__error contact-form__error_tel"></div>
+                </div>
+
+                <div class="contact-form__input-wrapper">
+                    <input name="email" type="email" class="contact-form__input contact-form__input_email"
+                        placeholder="Введите email">
+                    <div class="contact-form__error contact-form__error_email"></div>
+                </div>
+
+                <div class="contact-form__input-wrapper">
+                    <textarea name="text" class="contact-form__input contact-form__text"
+                        placeholder="Ваши пожелания"></textarea>
+                    <div class="contact-form__error contact-form__error_text"></div>
+                </div>
+
+                <button class="contact-form__button" type="submit"> Отправить заявку </button>
+            </form>
+
+        </div>
+    </div>
+
+    <div class="popup popup_opened" id="succses">
+        <div class="form-wrapper">
+            <div class="succses-form">
+                <button class="succses__close-btn"><img class="succses__img" src="./images/succses.svg" alt=""></button>
+                <div class="succses__area">
+                <h3 class="succses-form__title">Спасибо!</h3>
+                <p class="succses-form__subtitle">В ближайшее время наш менеджер свяжется с вами, для уточнения деталей</p>
+            </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
     <div class="totop" id="toTop"><img src="./images/toTop.png" alt=""></div>
+
+
+    <!-- jQuery Mask Plugin -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+
+    <script src="./mail/js/mail.js"></script>
+
+    <script>
+        $(function () {
+            $('.contact-form__input_tel').mask('+7(000)000-00-00');
+        });
+    </script>
+
+    <script src="./scripts/contact-form.js"></script>
     <script src="./scripts/slider.js"></script>
     <script src="./scripts/toTop.js"></script>
     <script src="./scripts/hideContent.js"></script>

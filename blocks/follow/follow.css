@@ -39,16 +39,45 @@
 .follow__text:first-child{
     margin-top: 0;
 }
+.follow__link{
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+    position: relative;
+}
+.follow__link:after{
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px; /* Высота линии */
+    background-color: #000; /* Цвет подчеркивания при исчезании линии*/
+    transition: width 0.5s;
+  }
+  .follow__link:hover:after{
+    content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 2px; /* Высота линии */
+    background-color: #000; /* Цвет подчеркивания при появлении линии*/
+    transition: width 0.5s;  /* Время эффекта */
+  }
 .follow__container{
-    max-width: 1560px;
+    width: 1600px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 @media (min-width: 1200px) and (max-width: 1900px) {
     .follow__container{
         max-width: 1170px;
+        width: 100%;
         margin: 0 auto;
     }
     .follow__title{
@@ -56,5 +85,11 @@
     }
     .follow__text:last-child{
         align-self: flex-end;
+    }
+  }
+
+  @media (min-width: 374px) and (max-width: 787px) {
+    .follow{
+        display: none;
     }
   }

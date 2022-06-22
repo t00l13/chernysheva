@@ -94,7 +94,6 @@
     background-image: url('../../images/lead__flower.png');
     background-repeat: no-repeat;
     background-size: contain;
-    z-index: 2;
     position: absolute;
     align-self: flex-end;
     left: 0;
@@ -125,21 +124,22 @@
 
 .lead .lead__container-item {
     animation-name: fade;
-    animation-duration: 3s;
+    animation-duration: 2s;
 }
 @keyframes fade {
     /* Устанавливаем и изменяем степень прозрачности: */
-    from {
-        opacity: 0
+    from{
+        opacity: 0;
     }
     to {
-        opacity: 1
+        opacity: 1;
     }
 }
 
+
 @media (min-width: 1200px) and (max-width: 1900px) {
     .lead{
-        margin-top: 130px;
+        margin-top: 80px;
     }
     .lead__textarea{
         margin: 0;
@@ -179,5 +179,68 @@
     .lead__btn-wrapper{
         margin: 0;
         margin-top: 82px;
+    }
+  }
+
+  @media (min-width: 374px) and (max-width: 787px) {
+    .lead{
+        margin-top: 80px;
+    }
+    .lead__images-marina{  
+        background-image: url('../../images/lead__marina375.png');
+        width: 226px;
+        height: 310px;
+    }
+    
+    .lead__images-flower{
+        background-image: url('../../images/lead__flower375.png');
+        width: 168px;
+        height: 250px;
+    }
+    .lead__container-item{
+        flex-direction: column-reverse;
+    }
+    .lead__textarea{
+        margin: 0;
+        margin-top: 30px;
+        max-width: 343px;
+        margin-right: 0;
+    }
+    .lead__images{
+        height: 366px;
+        width: 343px;
+    }
+    .lead__title{
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .lead__subtitle{
+        font-size: 14px;
+        line-height: 25px;
+        margin: 10px 0 0 0;
+
+    }
+    .lead__link-wrapper{
+        margin-top: 30px;
+        flex-direction: column;
+        text-align: center;
+        max-width: 343px;
+    }
+    .lead__link-connect{
+        font-size: 14px;
+        line-height: 25px;
+        padding: 18px 0;
+        margin: 0;
+        margin-bottom: 15px;
+    }
+    
+    .lead__link-video{
+        font-size: 14px;
+        line-height: 25px;
+        padding:18px 0 ;
+    }
+    .lead__btn-wrapper{
+        margin: 0;
+        display: none;
     }
   }

@@ -54,3 +54,38 @@
         gap:30px; 
     }
   }
+
+  @media (min-width: 374px) and (max-width: 878px) {
+    .media{
+        margin-bottom: 70px;
+    }
+    .media__title{
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .media__img{
+        grid-area:main;
+        border-radius: 5px;
+        margin-right: 0;
+        width: 343px;
+        height: 366px;
+        object-fit: cover;
+    }
+    .media__grid-img{
+        border-radius: 5px;
+        width: 168px;
+        height: 180px;
+        object-fit: cover;
+    }
+    .media__grid{
+        display: grid; 
+        grid-template-rows: 1fr 1fr 1fr 1fr; 
+        grid-template-columns: 1fr 1fr; 
+        gap: 8px; 
+        grid-template-areas: 
+          "main main"
+          "main main"
+          ". ."
+          ". ."; 
+    }
+  }

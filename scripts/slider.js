@@ -6,7 +6,12 @@ showSlides(slideIndex);
 /* Увеличиваем индекс на 1 — показываем следующий слайд: */
 function nextSlide() {
     showSlides(slideIndex += 1);
-}
+};
+
+let i = 1;
+setInterval(function(){
+    nextSlide(i);
+},4000);
 
 /* Уменьшаем индекс на 1 — показываем предыдущий слайд: */
 function previousSlide() {

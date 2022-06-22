@@ -90,3 +90,38 @@
         padding: 17px 30px;
     }
   }
+
+  @media (min-width: 375px) and (max-width: 787px) {
+    .education{
+        margin-bottom: 70px;
+    }
+    .education__title{
+        font-size: 24px;
+        line-height: 31px;
+    }
+    .education__item{
+        margin: 0;
+        min-width: 343px;
+        margin-bottom: 40px;
+    }
+    .education__item__title{
+        font-size: 19px;
+        line-height: 28px;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+    .education__item__subtitle{
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .education__link{
+        padding: 17px 0;
+        margin: 0;
+    }
+    .education__list{
+        flex-direction: column;
+    }
+    .education__list_hide{
+        flex-direction: column;
+    }
+  }
