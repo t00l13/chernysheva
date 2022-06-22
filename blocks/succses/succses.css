@@ -41,3 +41,17 @@
 .succses__area{
     margin-left: 40px;
 }
+
+@media (min-width: 374px) and (max-width: 787px) {
+    .succses-form{
+        max-width: 375px;
+        height: 500px;
+        margin: 30px auto;
+    }
+    .succses__close-btn{
+        padding: 0 20px;
+    }
+    .succses__area{
+        margin-left: 67px;
+    }
+}
