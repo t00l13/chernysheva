@@ -76,8 +76,7 @@
 
 @media (min-width: 1200px) and (max-width: 1900px) {
     .follow__container{
-        max-width: 1170px;
-        width: 100%;
+        width: 1170px;
         margin: 0 auto;
     }
     .follow__title{

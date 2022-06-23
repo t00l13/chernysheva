@@ -4,7 +4,7 @@
     display: flex;
 }
 .footer__container{
-    max-width: 1600px;
+    width: 1600px;
     margin: 0 auto;
 }
 .footer__wrapper{
@@ -83,7 +83,7 @@
 
 @media (min-width: 1200px) and (max-width: 1900px) {
     .footer__container{
-        min-width: 1170px;
+        width: 1170px;
         margin: 0 auto;
     }
     .footer__list{
@@ -100,7 +100,7 @@
         min-height: 685px;
     }
     .footer__container{
-        max-width: 343px;
+        width: 343px;
         margin: 0 auto;
     }
     .footer__infographic{

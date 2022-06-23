@@ -15,8 +15,10 @@
     max-width: 420px;
     background: #fff;
     border-radius: 20px;
-    margin: 45px 40px;
+    margin: 35px 40px;
     z-index: 20;
+    display: flex;
+    flex-direction: column;
 }
 
 .contact-form__title {
@@ -110,12 +112,21 @@
     color: #000;
     border: 1px solid #000;
 }
+.button__disable{
+    background-color: #828282;
+}
+.contact-form__close-btn{
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    align-self: flex-end;
+}
 
 @media (min-width: 374px) and (max-width: 787px) {
     .form-wrapper {
         box-sizing: border-box;
         width: 100%;
-        max-width: 375px;
+        max-width: 356px;
         margin: 0 auto;
         background: #fff;
         padding: 0;
@@ -126,7 +137,7 @@
     .contact-form {
         box-sizing: border-box;
         width: 100%;
-        max-width: 343px;
+        max-width: 320px;
         background: #fff;
         border-radius: 20px;
         margin: 30px auto;

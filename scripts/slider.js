@@ -11,7 +11,7 @@ function nextSlide() {
 let i = 1;
 setInterval(function(){
     nextSlide(i);
-},4000);
+},10000);
 
 /* Уменьшаем индекс на 1 — показываем предыдущий слайд: */
 function previousSlide() {
@@ -26,20 +26,39 @@ function currentSlide(n) {
 /* Функция перелистывания: */
 function showSlides(n) {
     /* Обращаемся к элементам с названием класса "item", то есть к картинкам: */
-    let slides = document.getElementsByClassName("lead__container-item");
+    let leads = document.getElementsByClassName("lead__container-item");
+    let news = document.getElementsByClassName("news__list")
 
     /* Проверяем количество слайдов: */
-    if (n > slides.length) {
+    if (n > leads.length) {
       slideIndex = 1
     }
     if (n < 1) {
-        slideIndex = slides.length
+        slideIndex = leads.length
     }
 
     /* Проходим по каждому слайду в цикле for: */
-    for (let slide of slides) {
+    for (let slide of leads) {
         slide.style.display = "none";
     }
     /* Делаем элемент блочным: */
-    slides[slideIndex - 1].style.display = "flex";
+    leads[slideIndex - 1].style.display = "flex";
+
+    
+
+
+        /* Проверяем количество слайдов: */
+        if (n > news.length) {
+            slideIndex = 1
+          }
+          if (n < 1) {
+              slideIndex = news.length
+          }
+      
+          /* Проходим по каждому слайду в цикле for: */
+          for (let slide of news) {
+              slide.style.display = "none";
+          }
+          /* Делаем элемент блочным: */
+          news[slideIndex - 1].style.display = "flex";
 }

@@ -43,12 +43,10 @@
         border-radius: 5px;
         margin-right: 0;
         width: 566px;
-        height: 604px;
     }
     .media__grid-img{
         border-radius: 5px;
         width: 270px;
-        height: 287px;
     }
     .media__grid{
         gap:30px; 

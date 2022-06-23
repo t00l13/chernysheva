@@ -3,8 +3,10 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+    <meta name="format-detection" content="telephone=no">
     <link rel="stylesheet" href="./pages/index.css">
+    <link rel="shortcut icon" href="images/icon-logo.png" type="image/png">
     <script src="./scripts/playerjs4.js" type="text/javascript"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="./scripts/headerBurger.js"></script>
@@ -28,7 +30,7 @@
                         <li><a href="#main-directions" class="header__link">Направления</a></li>
                         <li><a href="#media" class="header__link">Медиаматериалы</a></li>
                         <li><a href="#reception" class="header__link">О Клинике</a></li>
-                        <li><a href="#" class="header__link-connect">Cвязаться</a></li>
+                        <li><a href="#contact" class="header__link-connect">Cвязаться</a></li>
                     </ul>
                 </nav>
             </div>
@@ -132,8 +134,8 @@
                             <p class="news__item-subtitle">Restylane Vital и Vital Light — это безопасное и естественное
                                 средство для омоложения кожи. Оно обеспечивает восстановление водного баланса и…</p>
                             <p class="news__item-date">5 апреля, 2022 г.</p>
-                            <img class="news__prev" src="./images/prev.svg" alt="">
-                            <img class="news__next" src="./images/next.svg" alt="">
+                            <img onclick="previousSlide()" class="news__prev" src="./images/prev.svg" alt="">
+                            <img onclick="nextSlide()" class="news__next" src="./images/next.svg" alt="">
                         </div>
                     </div>
                     <div class="news__item" id="news_item-2">
@@ -141,6 +143,50 @@
                     </div>
                     <div class="news__item" id="news_item-3">
                         <img class="news__item-img" src="./images/news3.png" alt="">
+                    </div>
+
+                </div>
+
+                <div class="news__list" id="news_items">
+                    <div class="news__item">
+                        <img class="news__item-img" src="./images/news2.png" alt="">
+                        <div id="news_item-1" class="news__item-textarea">
+                            <h3 class="news__item-title">С 10 по 20 марта приглашаем моделей для пересадки волос FUE
+                                методом!</h3>
+                            <p class="news__item-subtitle">Restylane Vital и Vital Light — это безопасное и естественное
+                                средство для омоложения кожи. Оно обеспечивает восстановление водного баланса и…</p>
+                            <p class="news__item-date">5 апреля, 2022 г.</p>
+                            <img onclick="previousSlide()" class="news__prev" src="./images/prev.svg" alt="">
+                            <img onclick="nextSlide()" class="news__next" src="./images/next.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="news__item" id="news_item-2">
+                        <img class="news__item-img" src="./images/news1.png" alt="">
+                    </div>
+                    <div class="news__item" id="news_item-3">
+                        <img class="news__item-img" src="./images/news3.png" alt="">
+                    </div>
+
+                </div>
+
+                <div class="news__list" id="news_items">
+                    <div class="news__item">
+                        <img class="news__item-img" src="./images/news3.png" alt="">
+                        <div id="news_item-1" class="news__item-textarea">
+                            <h3 class="news__item-title">С 10 по 20 марта приглашаем моделей для пересадки волос FUE
+                                методом!</h3>
+                            <p class="news__item-subtitle">Restylane Vital и Vital Light — это безопасное и естественное
+                                средство для омоложения кожи. Оно обеспечивает восстановление водного баланса и…</p>
+                            <p class="news__item-date">5 апреля, 2022 г.</p>
+                            <img onclick="previousSlide()" class="news__prev" src="./images/prev.svg" alt="">
+                            <img onclick="nextSlide()" class="news__next" src="./images/next.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="news__item" id="news_item-2">
+                        <img class="news__item-img" src="./images/news2.png" alt="">
+                    </div>
+                    <div class="news__item" id="news_item-3">
+                        <img class="news__item-img" src="./images/news1.png" alt="">
                     </div>
 
                 </div>
@@ -608,6 +654,7 @@
     <div class="popup popup_opened" id="contact">
         <div class="form-wrapper">
             <form class="contact-form" id="contact-form_1" method="POST" enctype="multipart/form-data">
+                <button class="contact-form__close-btn"><img class="succses__img" src="./images/succses.svg" alt=""></button>
                 <p class="contact-form__title">Свяжитесь с нами!</p>
                 <p class="contact-form__subtitle">Я помогаю своим пациентам комплексно решить проблемы со здоровьем и
                     сохранить индивидуальную красоту. Сделайте шаг на встречу себе и запишитесь на первый приём!</p>

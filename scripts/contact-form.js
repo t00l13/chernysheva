@@ -27,29 +27,50 @@
 
 $('.lead__link-connect').click(
     function () {
+      $('.contact-form')[0].reset();
       $('#contact').removeClass('popup_opened');
     }
   );
   $('.header__link-connect').click(
     function () {
+      $('.contact-form')[0].reset();
       $('#contact').removeClass('popup_opened');
     }
   );
 
   $('.timetable__grid-item__link').click(
     function () {
+      $('.contact-form')[0].reset();
       $('#contact').removeClass('popup_opened');
     }
   );
 
-  $('.contact-form__button').click(
+  $('.timetable__grid-item__link_375').click(
     function () {
-        $('#contact').addClass('popup_opened');
-      $('#succses').removeClass('popup_opened');
+      $('.contact-form')[0].reset();
+      $('#contact').removeClass('popup_opened');
     }
   );
+
+  // $('.contact-form__button').click(
+  //   function () {
+  //       $('#contact').addClass('popup_opened');
+  //     $('#succses').removeClass('popup_opened');
+  //   }
+  // );
   $('.succses__close-btn').click(
     function () {
       $('#succses').addClass('popup_opened');
     }
   );
+
+  $('.contact-form__close-btn').click(
+    function () {
+      $('#contact').addClass('popup_opened');
+    }
+  );
+
+
+
+
+  

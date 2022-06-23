@@ -9,6 +9,8 @@
 		let inpTelError = $(this).find('.contact-form__error_tel');
 		let inpTextError = $(this).find('.contact-form__error_text');
 		let inpFileError = $(this).find('.contact-form__error_file');
+		let succsesForm = document.querySelector('#succses');
+		let contactFrom= document.querySelector('#contact');
 
 		// Сохраняем в переменную див, в который будем выводить сообщение формы
 		let formDescription = $(this).find('.contact-form__description');
@@ -61,13 +63,10 @@
 				}
 
 				if (respond.success) {
-					formDescription.text(respond.success).fadeIn();
-					setTimeout(() => {
-						formDescription.fadeOut("slow");
-					}, 4000);
-					setTimeout(() => {
-						formDescription.text('');
-					}, 5000);
+					if (respond.success) {
+						contactFrom.classList.add('popup_opened');
+						 succsesForm.classList.remove('popup_opened');
+					  }
 				}
 			},
 		});

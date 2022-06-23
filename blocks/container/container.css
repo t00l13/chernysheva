@@ -1,18 +1,18 @@
 .container{
-    max-width: 1600px;
+    width: 1600px;
     margin: 0 auto;
     min-width: 288px;
   }
 
   @media (min-width: 1200px) and (max-width: 1900px) {
     .container{
-      max-width: 1170px;
+      width: 1170px;
 
     }
   }
   @media (min-width: 374px) and (max-width: 787px) {
     .container{
-      max-width: 343px;
+      width: 343px;
 
     }
   }
