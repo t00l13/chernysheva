@@ -1,6 +1,5 @@
 .events{
     margin:0 auto;
-    margin-top: 120px;
     background: rgba(0, 0, 0, 0.03);
 }
 
@@ -16,7 +15,7 @@
     font-family: 'Trajan Pro 3';
     font-style: normal;
     font-weight: 300;
-    font-size: 56px;
+    font-size: 38px;
     line-height: 62px;
     margin: 0;
 }
@@ -34,7 +33,10 @@
 }
 
 .events__grid-item__img{
-
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
 }
 
 .events__grid-item__subtitle{
@@ -44,7 +46,7 @@
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
-    line-height: 32px;
+    line-height: 18px;
 }
 
 .events__btn{
@@ -86,7 +88,7 @@
         padding-top: 95px;
     }
     .events__title{
-        font-size: 48px;
+        font-size: 36px;
         line-height: 62px;
         margin: 0;
     }
@@ -94,6 +96,9 @@
         margin-bottom: 50px;
         grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
         grid-gap: 0;
+    }
+    .events__grid_hide{
+        margin: 0;
     }
     .events__grid-item__img{
         width: 270px;
@@ -103,7 +108,10 @@
        margin-bottom: 50px;
     }
     .events__btn{
-        display: none;
+    }
+    .events__grid-item__subtitle{
+        font-size: 14px;
+        line-height: 15px;
     }
   }
 
@@ -137,12 +145,11 @@
     .events__grid-item__img{
         width: 168px;
         height: 187px;
-        object-fit: cover;
     }
     .events__grid-item__subtitle{
         margin: 15px 8px 0 0 ;
-        font-size: 14px;
-        line-height: 25px;
+        font-size: 10px;
+        line-height: 15px;
     }
     .events__btn{
         line-height: 27px;

@@ -1,6 +1,6 @@
 .footer{
     background-color: #000;
-    min-height: 675px;
+    min-height: 570px;
     display: flex;
 }
 .footer__container{
@@ -76,9 +76,18 @@
     right: 0;
     position: absolute;
     align-self: flex-end;
+    width: 600px;
 }
 .footer__list__wrapper{
     display: flex;
+}
+.footer__text_color{
+    color: #828282;
+    font-family: 'Iowan Old Style';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
 }
 
 @media (min-width: 1200px) and (max-width: 1900px) {
@@ -92,6 +101,9 @@
     }
     .footer__list-item{
         margin-bottom: 30px;
+    }
+    .footer__infographic{
+        width: 600px;
     }
   }
 

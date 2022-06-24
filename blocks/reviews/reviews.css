@@ -7,7 +7,7 @@
     font-family: 'Trajan Pro 3';
     font-style: normal;
     font-weight: 300;
-    font-size: 56px;
+    font-size: 38px;
     line-height: 73px;
 }
 
@@ -75,7 +75,7 @@
         flex-direction: column;
     }
     .reviews__title{
-        font-size: 48px;
+        font-size: 36px;
         line-height: 62px;
     }
     .reviews__grid{

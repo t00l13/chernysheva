@@ -7,7 +7,7 @@
     font-family: 'Trajan Pro 3';
     font-style: normal;
     font-weight: 300;
-    font-size: 56px;
+    font-size: 38px;
     line-height: 130%;
     margin: 0;
     margin-bottom: 50px;
@@ -21,8 +21,9 @@
     margin-right: 20px;
 }
 .sertificat__list-item__img{
-    max-height: 170px;
-    max-width: 250px;
+    height: 170px;
+    width: 250px;
+    object-fit: contain;
 }
 .sertificat__list-item__subtitle{
     font-family: 'Iowan Old Style';
@@ -64,12 +65,12 @@
         margin-bottom: 100px;
     }
     .sertificat__title{
-        font-size: 48px;
+        font-size: 36px;
         line-height: 62px;
     }
     .sertificat__list-item__img{
-        max-width: 180px;
-        max-height: 120px;
+        width: 180px;
+        height: 120px;
     }
     .sertificat__list{
         display: grid;
@@ -90,8 +91,8 @@
         margin-bottom: 30px;
     }
     .sertificat__list-item__img{
-        max-width: 165px;
-        max-height: 168px;
+        width: 165px;
+        height: 168px;
     }
     .sertificat__list{
         display: grid;

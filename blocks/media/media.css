@@ -5,7 +5,7 @@
     font-family: 'Trajan Pro 3';
     font-style: normal;
     font-weight: 300;
-    font-size: 56px;
+    font-size: 38px;
     line-height: 73px;
 }
 .media__img{
@@ -35,7 +35,7 @@
         margin-bottom: 100px;
     }
     .media__title{
-        font-size: 48px;
+        font-size: 36px;
         line-height: 62px;
     }
     .media__img{

@@ -16,7 +16,7 @@
     font-family: 'Trajan Pro 3';
     font-style: normal;
     font-weight: 300;
-    font-size: 56px;
+    font-size: 38px;
     line-height: 130%;
     margin: 0;
 }
@@ -27,7 +27,7 @@
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
-    line-height: 32px;
+    line-height: 26px;
     color: #828282;
     max-width: 646px;
     margin: 20px 0 0 0 ;
@@ -121,6 +121,11 @@
 .lead__btn:hover{
     opacity: 0.5;
 }
+.lead__link-video:hover{
+    box-shadow: 1px 1px 10px #000;
+    animation: fade;
+    animation-duration: 1s;
+}
 
 .lead .lead__container-item {
     animation-name: fade;
@@ -128,10 +133,13 @@
 }
 @keyframes fade {
     /* Устанавливаем и изменяем степень прозрачности: */
-    from{
-        opacity: 0;
+    0%{
+        opacity: 0.5;
     }
-    to {
+    50% {
+        opacity: 0.7;
+    }
+    100%{
         opacity: 1;
     }
 }
@@ -150,7 +158,7 @@
         margin-right: 30px;
     }
     .lead__title{
-        font-size: 48px;
+        font-size: 36px;
         line-height: 62px;
     }
     .lead__images-marina{  

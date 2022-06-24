@@ -8,7 +8,7 @@
     font-family: 'Trajan Pro 3';
     font-style: normal;
     font-weight: 300;
-    font-size: 56px;
+    font-size: 38px;
     line-height: 130%;
     margin: 0;
     margin-bottom: 50px;
@@ -39,7 +39,7 @@
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
-    line-height: 32px;
+    line-height: 26px;
     color: #828282;
     margin: 0;
 }
@@ -79,7 +79,7 @@
         margin-bottom: 100px;
     }
     .education__title{
-        font-size: 48px;
+        font-size: 36px;
         line-height: 62px;
     }
     .education__item{

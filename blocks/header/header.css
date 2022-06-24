@@ -52,6 +52,9 @@
     z-index: 4; 
     margin-top: 10px;
   }
+  .logo img{
+    width: 370px;
+  }
   
   ul{
     padding: 0;
@@ -117,8 +120,7 @@
       margin: 0 0 0 15px;
     }
     .logo img{
-      width: 220px;
-      height: 43px;
+      width: 245px;
     }
     .header__link-connect{
       padding: 12px 17px;
@@ -129,8 +131,7 @@
   @media (min-width: 374px) and (max-width: 789px) {
 
     .logo img{
-      width: 220px;
-      height: 43px;
+      width: 280px;
     }
 
     .header{
@@ -207,17 +208,21 @@
     }
     .header__menu.active{
       top: 0;
-      height: 350px;
+      height: 100%;
     }
     .header__list{
       flex-direction: column;
+      align-items: center;
     }
     .header__list li{
-      margin-bottom: 20px;
+      margin-bottom: 25px;
+    }
+    .header__link{
+      margin: 0;
     }
     .header__link-connect{
       padding: 12px 17px;
-      margin-left: 15px;
+      margin-left: 8px;
     }
     .header__menu{
       padding: 120px 0 0 0;

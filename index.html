@@ -3,12 +3,15 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
     <meta name="format-detection" content="telephone=no">
     <link rel="stylesheet" href="./pages/index.css">
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
     <link rel="shortcut icon" href="images/icon-logo.png" type="image/png">
-    <script src="./scripts/playerjs4.js" type="text/javascript"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./scripts/owl.carousel.min.js"></script>
+    <script src="./scripts/playerjs4.js" type="text/javascript"></script>
     <script src="./scripts/headerBurger.js"></script>
     <title>Marina Chernysheva</title>
 </head>
@@ -46,62 +49,16 @@
                         <h1 class="lead__title">Профессиональный подход к косметологии</h1>
                         <p class="lead__subtitle">Фундаментальное образование, активная практическая и преподавательская
                             деятельность, обучение врачей косметологов и использование только безопасных методов
-                            и зарегистрированных препаратов в работе</p>
+                            и зарегистрированных препаратов в работе.</p>
                         <div class="lead__link-wrapper">
                             <a href="#" class="lead__link-connect">Связаться</a>
                             <a href="#video-cover" class="lead__link-video"><img class="lead__link-icon"
                                     src="./images/icon-play.svg" alt=""> Смотреть видео</a>
                         </div>
-                        <div class="lead__btn-wrapper">
-                            <img onclick="previousSlide()" class="lead__btn" src="./images/slide_left.svg" alt="">
-                            <img onclick="nextSlide()" class="lead__btn" src="./images/slide_right.svg" alt="">
-                        </div>
-                    </div>
-                    <div class="lead__images">
-                        <div class="lead__images-marina"></div>
-                        <div class="lead__images-flower"></div>
-                    </div>
-                </div>
-
-
-                <div class="lead__container-item">
-                    <div class="lead__textarea">
-                        <h1 class="lead__title">Профессиональный подход</h1>
-                        <p class="lead__subtitle">Фундаментальное образование, активная практическая и преподавательская
-                            деятельность, обучение врачей косметологов и использование только безопасных методов
-                            и зарегистрированных препаратов в работе</p>
-                        <div class="lead__link-wrapper">
-                            <a href="#" class="lead__link-connect">Связаться</a>
-                            <a href="#video-cover" class="lead__link-video"><img class="lead__link-icon"
-                                    src="./images/icon-play.svg" alt=""> Смотреть видео</a>
-                        </div>
-                        <div class="lead__btn-wrapper">
-                            <img onclick="previousSlide()" class="lead__btn" src="./images/slide_left.svg" alt="">
-                            <img onclick="nextSlide()" class="lead__btn" src="./images/slide_right.svg" alt="">
-                        </div>
-                    </div>
-                    <div class="lead__images">
-                        <div class="lead__images-marina"></div>
-                        <div class="lead__images-flower"></div>
-                    </div>
-                </div>
-
-
-                <div class="lead__container-item">
-                    <div class="lead__textarea">
-                        <h1 class="lead__title">к косметологии</h1>
-                        <p class="lead__subtitle">Фундаментальное образование, активная практическая и преподавательская
-                            деятельность, обучение врачей косметологов и использование только безопасных методов
-                            и зарегистрированных препаратов в работе</p>
-                        <div class="lead__link-wrapper">
-                            <a href="#" class="lead__link-connect">Связаться</a>
-                            <a href="#video-cover" class="lead__link-video"><img class="lead__link-icon"
-                                    src="./images/icon-play.svg" alt=""> Смотреть видео</a>
-                        </div>
-                        <div class="lead__btn-wrapper">
-                            <img onclick="previousSlide()" class="lead__btn" src="./images/slide_left.svg" alt="">
-                            <img onclick="nextSlide()" class="lead__btn" src="./images/slide_right.svg" alt="">
-                        </div>
+                        <!-- <div class="lead__btn-wrapper">
+                            <img class="lead__btn" src="./images/slide_left.svg" alt="">
+                            <img class="lead__btn" src="./images/slide_right.svg" alt="">
+                        </div> -->
                     </div>
                     <div class="lead__images">
                         <div class="lead__images-marina"></div>
@@ -114,8 +71,8 @@
                 <div class="about-me__img"></div>
                 <div class="about-me__textarea">
                     <h2 class="about-me__title">Марина Павловна Чернышёва</h2>
-                    <p class="about-me__subtitle">Топ-эксперт по препарату Диспорт в России; тренер по инъекционным
-                        методикам в компаниях «Валлекс М», «Ипсен» и «Галдерма»</p>
+                    <p class="about-me__subtitle">Топ-эксперт по препарату Диспорт в России; <br> Тренер по инъекционным
+                        методикам в компаниях <br> «Валлекс М», «Ипсен» и «Галдерма»</p>
                     <h3 class="about-me__profession">Кандидат медицинских наук</h3>
                     <h3 class="about-me__profession">Врач-дерматовенеролог</h3>
                     <h3 class="about-me__profession">Косметолог</h3>
@@ -125,7 +82,7 @@
 
             <section class="news" id="news">
                 <h2 class="news__title">Новости</h2>
-                <div class="news__list" id="news_items">
+                <!-- <div class="news__list" id="news_items">
                     <div class="news__item">
                         <img class="news__item-img" src="./images/news1.png" alt="">
                         <div id="news_item-1" class="news__item-textarea">
@@ -189,6 +146,58 @@
                         <img class="news__item-img" src="./images/news1.png" alt="">
                     </div>
 
+                </div> -->
+
+                <div class="owl-carousel owl-theme" id="slider">
+                    <!--Слайд 1-->
+                    <div class="slide">
+                        <div class="news__item">
+                            <img class="news__item-img" src="./images/news3.png" alt="">
+                            <div id="news_item-1" class="news__item-textarea">
+                                <h3 class="news__item-title">С 10 по 20 марта приглашаем моделей для пересадки волос FUE
+                                    методом!</h3>
+                                <p class="news__item-subtitle">Restylane Vital и Vital Light — это безопасное и естественное
+                                    средство для омоложения кожи. Оно обеспечивает восстановление водного баланса и…</p>
+                                <p class="news__item-date">5 апреля, 2022 г.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="news__item">
+                            <img class="news__item-img" src="./images/news2.png" alt="">
+                            <div id="news_item-1" class="news__item-textarea">
+                                <h3 class="news__item-title">С 10 по 20 марта приглашаем моделей для пересадки волос FUE
+                                    методом!</h3>
+                                <p class="news__item-subtitle">Restylane Vital и Vital Light — это безопасное и естественное
+                                    средство для омоложения кожи. Оно обеспечивает восстановление водного баланса и…</p>
+                                <p class="news__item-date">5 апреля, 2022 г.</p>
+                            </div>
+                        </div>
+                    </div> 
+                       <div class="slide" >
+                        <div class="news__item">
+                            <img class="news__item-img" src="./images/news1.png" alt="">
+                            <div id="news_item-1" class="news__item-textarea">
+                                <h3 class="news__item-title">С 10 по 20 марта приглашаем моделей для пересадки волос FUE
+                                    методом!</h3>
+                                <p class="news__item-subtitle">Restylane Vital и Vital Light — это безопасное и естественное
+                                    средство для омоложения кожи. Оно обеспечивает восстановление водного баланса и…</p>
+                                <p class="news__item-date">5 апреля, 2022 г.</p>
+                            </div>
+                        </div>
+                    </div>    
+                                    <div class="slide">
+                        <div class="news__item">
+                            <img class="news__item-img" src="./images/news2.png" alt="">
+                            <div id="news_item-1" class="news__item-textarea">
+                                <h3 class="news__item-title">С 10 по 20 марта приглашаем моделей для пересадки волос FUE
+                                    методом!</h3>
+                                <p class="news__item-subtitle">Restylane Vital и Vital Light — это безопасное и естественное
+                                    средство для омоложения кожи. Оно обеспечивает восстановление водного баланса и…</p>
+                                <p class="news__item-date">5 апреля, 2022 г.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
         </div>
@@ -197,34 +206,33 @@
                 <h2 class="events__title">Участие в мероприятиях</h2>
                 <div class="events__grid">
                     <div class="events__grid-item">
-                        <img class="events__grid-item__img" src="./images/events1.png" alt="">
-                        <p class="events__grid-item__subtitle">Докладчик и участник Российских и международных
-                            симпозиумов и мастер-классов</p>
+                        <img class="events__grid-item__img" src="./images/events7.png" alt="">
+                        <p class="events__grid-item__subtitle">В июне 2022 года Марина Павловна стала участником  Конгресса по пластической хирургии и косметологии, г. Санкт-Петербург</p>
                     </div>
                     <div class="events__grid-item">
-                        <img class="events__grid-item__img" src="./images/events2.png" alt="">
-                        <p class="events__grid-item__subtitle">Регулярно проводит обучающие семинары по применению
-                            препартов Диспорт, Филорга, Рестилайн, Скульптра</p>
+                        <img class="events__grid-item__img" src="./images/events8.jpeg" alt="">
+                        <p class="events__grid-item__subtitle">Май 2022 <br> Участник Тренерского совета компании IPSEN, г. Москва</p>
                     </div>
                     <div class="events__grid-item">
-                        <img class="events__grid-item__img" src="./images/events3.png" alt="">
-                        <p class="events__grid-item__subtitle">Автор и соавтор статей и публикаций в профессиональных
-                            изданиях</p>
+                        <img class="events__grid-item__img" src="./images/events9.jpeg" alt="">
+                        <p class="events__grid-item__subtitle">Х юбилейный Национальный конгресс
+                            Пластическая хирургия, эстетическая медицина и косметология, декабрь 2021 года
+                            Модерация сессии и доклад
+                            «Аминокислотная заместительниц терапия в сочетании с аппаратными методиками для коррекции возрастных изменений в области тела»</p>
                     </div>
                     <div class="events__grid-item">
-                        <img class="events__grid-item__img" src="./images/events4.png" alt="">
-                        <p class="events__grid-item__subtitle">Член общества эстетической медицины</p>
+                        <img class="events__grid-item__img" src="./images/events10.jpeg" alt="">
+                        <p class="events__grid-item__subtitle">Марина Павловна посетила форум Galderma GAIN в ноябре  2021, г. Сочи</p>
                     </div>
                     <div class="events__grid-item">
-                        <img class="events__grid-item__img" src="./images/events5.png" alt="">
-                        <p class="events__grid-item__subtitle">Автор и соавтор более 30 научных публикаций
-                            в профессиональных изданиях</p>
+                        <img class="events__grid-item__img" src="./images/events11.jpeg" alt="">
+                        <p class="events__grid-item__subtitle">Октябрь 2021 Конгресс СТЭМ
+                            Доклад «Аминокислотная заместительная терапия в комбинации с аппаратными методиками для коррекции сложных зон», г. Санкт-Петербург</p>
                     </div>
                     <div class="events__grid-item">
-                        <img class="events__grid-item__img" src="./images/events6.png" alt="">
-                        <p class="events__grid-item__subtitle">Спикер на российских и международных конференциях
-                            и других
-                            профессиональных обучающих мероприятиях</p>
+                        <img class="events__grid-item__img" src="./images/events12.png" alt="">
+                        <p class="events__grid-item__subtitle">Сентябрь 2021 – Балтконгресс, г. Калининград
+                            Доклад «Интегрированный уход SKINCEUTICALS в лечении и реабилитации пациентов с дисхромиями  аппаратными методами»</p>
                     </div>
                 </div>
                 <div class="events__grid_hide">
@@ -237,11 +245,6 @@
                         <img class="events__grid-item__img" src="./images/events2.png" alt="">
                         <p class="events__grid-item__subtitle">Регулярно проводит обучающие семинары по применению
                             препартов Диспорт, Филорга, Рестилайн, Скульптра</p>
-                    </div>
-                    <div class="events__grid-item">
-                        <img class="events__grid-item__img" src="./images/events3.png" alt="">
-                        <p class="events__grid-item__subtitle">Автор и соавтор статей и публикаций в профессиональных
-                            изданиях</p>
                     </div>
                     <div class="events__grid-item">
                         <img class="events__grid-item__img" src="./images/events4.png" alt="">
@@ -269,33 +272,17 @@
                     <div class="timetable__grid-item">
                         <img class="timetable__grid-item__img" src="./images/timetable1.png" alt="">
                         <div class="timetable__grid-item__wrapper">
-                            <p class="timetable__grid-item__subtitle">Применение препарта Диспорт / 01.05.22</p>
-                            <a class="timetable__grid-item__link" href="#">Записаться</a>
-                            <a class="timetable__grid-item__link_375" href="#">Запись</a>
+                            <p class="timetable__grid-item__subtitle">Современные инъекционные методики в эстетической медицине / 18.07.22</p>
+                            <a class="timetable__grid-item__link" href="https://umc-vallexm.ru/payment/?semenar=4606">Записаться</a>
+                            <a class="timetable__grid-item__link_375" href="https://umc-vallexm.ru/payment/?semenar=4606">Запись</a>
                         </div>
                     </div>
                     <div class="timetable__grid-item">
                         <img class="timetable__grid-item__img" src="./images/timetable1.png" alt="">
                         <div class="timetable__grid-item__wrapper">
-                            <p class="timetable__grid-item__subtitle">Применение препарта Диспорт / 01.05.22</p>
-                            <a class="timetable__grid-item__link" href="#">Записаться</a>
-                            <a class="timetable__grid-item__link_375" href="#">Запись</a>
-                        </div>
-                    </div>
-                    <div class="timetable__grid-item">
-                        <img class="timetable__grid-item__img" src="./images/timetable1.png" alt="">
-                        <div class="timetable__grid-item__wrapper">
-                            <p class="timetable__grid-item__subtitle">Применение препарта Диспорт / 01.05.22</p>
-                            <a class="timetable__grid-item__link" href="#">Записаться</a>
-                            <a class="timetable__grid-item__link_375" href="#">Запись</a>
-                        </div>
-                    </div>
-                    <div class="timetable__grid-item">
-                        <img class="timetable__grid-item__img" src="./images/timetable1.png" alt="">
-                        <div class="timetable__grid-item__wrapper">
-                            <p class="timetable__grid-item__subtitle">Применение препарта Диспорт / 01.05.22</p>
-                            <a class="timetable__grid-item__link" href="#">Записаться</a>
-                            <a class="timetable__grid-item__link_375" href="#">Запись</a>
+                            <p class="timetable__grid-item__subtitle">Применение препарта Диспорт / 22.08.22</p>
+                            <a class="timetable__grid-item__link" href="https://umc-vallexm.ru/applicants/seminars_and_trainings/1363/">Записаться</a>
+                            <a class="timetable__grid-item__link_375" href="https://umc-vallexm.ru/applicants/seminars_and_trainings/1363/">Запись</a>
                         </div>
                     </div>
                 </div>
@@ -430,11 +417,11 @@
                 </div>
             </section>
 
-            <section class="reviews" id="reviews">
+            <!-- <section class="reviews" id="reviews">
                 <h2 class="reviews__title">Видео-отзывы</h2>
                 <div class="reviews__grid">
                     <div class="reviews__grid-item">
-                        <!-- <img class="reviews__grid-item__img" src="./images/review1.png" alt=""> -->
+                         <img class="reviews__grid-item__img" src="./images/review1.png" alt=""> 
                         <video class="reviews__video" controls width="370px" height="300px"
                             poster="./images/review1.png" src="./images/video__cover.mp4"></video>
                         <h4 class="reviews__grid-item__title">Подтяжка лица</h4>
@@ -461,7 +448,7 @@
                 </div>
                 <div class="reviews__grid_hide">
                     <div class="reviews__grid-item">
-                        <!-- <img class="reviews__grid-item__img" src="./images/review1.png" alt=""> -->
+                         <img class="reviews__grid-item__img" src="./images/review1.png" alt=""> 
                         <video class="reviews__video" controls width="370px" height="300px"
                             poster="./images/review1.png" src="./images/video__cover.mp4"></video>
                         <h4 class="reviews__grid-item__title">Подтяжка лица</h4>
@@ -487,7 +474,7 @@
                     </div>
                 </div>
                 <button class="reviews__link">Ещё</button>
-            </section>
+            </section> -->
 
             <section class="sertificat" id="sertificat">
                 <h2 class="sertificat__title">Сертификаты</h2>
@@ -592,13 +579,11 @@
             <div class="follow__container">
                 <div class="follow__wrapper">
                     <h2 class="follow__title">Оставайтесь на связи!</h2>
-                    <p class="follow__subtitle">Переходите в социальные сети, которые удобны именно вам</p>
                 </div>
                 <div class="follow__wrapper">
                     <a class="follow__link" href="https://instagram.com/doctor_chernysheva?igshid=YmMyMTA2M2Y=">
                         <h3 class="follow__text">Личная страница Instagram</h3>
                     </a>
-                    <h3 class="follow__text">+7 (495) 159 98 09</h3>
                 </div>
             </div>
         </section>
@@ -615,16 +600,12 @@
                         <li class="footer__list-item"><a class="footer__link" href="#main-directions">Основные
                                 направления</a></li>
                         <li class="footer__list-item"><a class="footer__link" href="#news">Новости</a></li>
-                        <li class="footer__list-item"><a class="footer__link" href="#media">Медиаматериалы</a></li>
-                        <li class="footer__list-item"><a class="footer__link" href="#reviews">Фоторезультаты</a></li>
-                        <li class="footer__list-item"><a class="footer__link" href="#reception">О клинике</a></li>
                     </ul>
                     <ul class="footer__list">
                         <li class="footer__list-item"><a class="footer__link" href="#timetable">Семинары</a></li>
-                        <li class="footer__list-item"><a class="footer__link" href="#timetable">Вебинары</a></li>
                         <li class="footer__list-item"><a class="footer__link" href="#events">Мероприятия</a></li>
-                        <li class="footer__list-item"><a class="footer__link" href="#">Партнёрам</a></li>
-                        <li class="footer__list-item"><a class="footer__link" href="#sertificat">Правовая информация</a>
+                        <li class="footer__list-item"><a class="footer__link" href="#reception">О клинике</a></li>
+                        <li class="footer__list-item"><a class="footer__link" href="#media">Медиаматериалы</a></li>
                         </li>
                     </ul>
                 </div>
@@ -654,7 +635,8 @@
     <div class="popup popup_opened" id="contact">
         <div class="form-wrapper">
             <form class="contact-form" id="contact-form_1" method="POST" enctype="multipart/form-data">
-                <button class="contact-form__close-btn"><img class="succses__img" src="./images/succses.svg" alt=""></button>
+                <button class="contact-form__close-btn"><img class="succses__img" src="./images/succses.svg"
+                        alt=""></button>
                 <p class="contact-form__title">Свяжитесь с нами!</p>
                 <p class="contact-form__subtitle">Я помогаю своим пациентам комплексно решить проблемы со здоровьем и
                     сохранить индивидуальную красоту. Сделайте шаг на встречу себе и запишитесь на первый приём!</p>
@@ -718,10 +700,32 @@
             $('.contact-form__input_tel').mask('+7(000)000-00-00');
         });
     </script>
+    <script>
+        $(document).ready(function(){
+    const slider = $("#slider").owlCarousel({
+        loop:true,
+        margin:50,
+        nav:true,
+        navText: [
+            '<img class="news__prev" src="./images/prev.svg" alt="">',
+            '<img class="news__next" src="./images/next.svg" alt="">'
+            ],
+        responsive:{
+            0:{
+                items:1
+            },
+            1200:{
+                items:2
+            }
+        }
+    });
+});
+    </script>
 
     <script src="./scripts/contact-form.js"></script>
-    <script src="./scripts/slider.js"></script>
+    <!-- <script src="./scripts/slider.js"></script> -->
     <script src="./scripts/toTop.js"></script>
+    <script src="./scripts/showImg.js"></script>
     <script src="./scripts/hideContent.js"></script>
     <script src="./scripts/scroll.js"></script>
 </body>

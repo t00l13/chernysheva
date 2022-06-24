@@ -7,7 +7,7 @@
     font-family: 'Trajan Pro 3';
     font-style: normal;
     font-weight: 300;
-    font-size: 56px;
+    font-size: 38px;
     line-height: 130%;
     margin: 0;
     margin-bottom: 50px;
@@ -20,7 +20,7 @@
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
-    line-height: 32px;
+    line-height: 26px;
     color: #828282;
     margin: 0;
     margin-bottom: 30px;
@@ -90,9 +90,14 @@
     margin-right: 20px;
 }
 
-.reception__link-sait{
-    color: #fff;
-    background-color: #000;
+.reception__link-sait:hover{
+    color: #000;
+    background-color: #fff;
+}
+.reception__link-video:hover{
+    box-shadow: 1px 1px 10px #000;
+    animation: btn-fade;
+    animation-duration: 1s;
 }
 
 @media (min-width: 1200px) and (max-width: 1900px) {
@@ -100,7 +105,7 @@
         margin-bottom: 100px;
     }
     .reception__title{
-        font-size: 48px;
+        font-size: 36px;
         line-height: 62px;
         margin-bottom: 40px;
     }
