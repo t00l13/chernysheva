@@ -40,7 +40,7 @@
 	const SENDER = 'itollik@yandex.ru';
 
 	// Почта на которую будет приходить письмо
-	const CATCHER = 'katrech4@gmail.com';
+	const CATCHER = 'arg.com@yandex.ru';
 
 	// Тема письма
 	const SUBJECT = 'Заявка с сайта';

@@ -126,9 +126,15 @@
     }
     .footer__wrapper_text{
         flex-direction: column;
+        margin-top: 15px;
+    }
+    .footer__wrapper{
+        margin-top: 40px;
+        margin-bottom: 20px;
+        flex-direction: column;
     }
     .footer__logo{
-        display: none;
+        width: 250px;
     }
     .footer__list{
         width: 168px;
@@ -145,7 +151,7 @@
         margin-top: 70px;
     }
     .footer__text{
-        font-family: 'Iowan Old Style';
+        font-family: 'Trajan Pro 3';
         font-style: normal;
         font-weight: 700;
         font-size: 14px;

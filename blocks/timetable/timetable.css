@@ -116,9 +116,9 @@
         display: flex;
     }
     .timetable__grid-item__subtitle{
-        font-size: 19px;
-        line-height: 29px;
-        margin: 15px 0 8px 0;
+        font-size: 14px;
+        line-height: 24px;
+        margin: 15px 10px 8px 0;
     }
     .timetable__grid-item__link{
         display: none;

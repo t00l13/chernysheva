@@ -54,6 +54,7 @@
         font-size: 36px;
         line-height: 62px;
     }
+    
     .main-directions__grid{
         grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
         grid-gap: 30px;
